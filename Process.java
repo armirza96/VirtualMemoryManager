@@ -3,6 +3,12 @@ public class Process implements Runnable {
     String id;
     int startingTime;
     int burstTime;
+    int arrivalTime;
+    int priority;
+    int timeSlotsGranted = 0;
+    volatile STATE state;
+    int waitingTime = 0;
+    int processedTime = 0;
 
     public Process(String id, int startingTime, int burstTime, int priority) {
         this.id = id;

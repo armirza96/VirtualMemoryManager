@@ -4,22 +4,26 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Dictionary;
 import java.util.Hashtable;
+import java.util.List;
 
 public class MemoryManager {
-    //Dictionary<String, Page> mainMemory = new Hashtable<String, Integer>();
+    Dictionary<String, Page> pages = new Hashtable<String, Page>();
     MemoryConfig config;
-    Page[] pages;
+    //Page[] pages;
+
     public MemoryManager() {
         
     }
 
     public void store(String id, int value) {
-        if()
-        mainMemory.put(id, value);
+        if(pages.get(id) != null) {
+
+        } else
+            pages.put(id, new Page(id, value));
     }
 
     public void release(String id) {
-        mainMemory.remove(id);
+        pages.remove(id);
     }
 
     public void lookup(String id) {
@@ -32,16 +36,20 @@ public class MemoryManager {
     }
 
     private void accessPage(int currentAccessTime) {
-        Page p = findPage("1");
+        Page p = pages.get(id);
 
-    }
+        int lastAccessTime = p.lastAccessTime;
 
-    private Page findPage(String name) {
-        for(Page p: pages) {
-            if(p.content.Name.equals(name))
-                return p;
+        if(currentAccessTime - lastAccessTime < 500) {
+            p.lastAccessTime = currentAccessTime;
+        } else {
+            List<Integer> lastAccessTimes = p.acessTimes;
+
+            int lcp = lastAccessTime - lastAccessTimes.get(0);
+
+            for(int i = 1; i <= config.k; i++)
+            lastAccessTimes(i) = 
         }
-        return null;
     }
 
          /**

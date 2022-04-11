@@ -1,98 +1,116 @@
+import java.util.Random;
+import java.util.concurrent.Semaphore;
+
 public class Process implements Runnable {
     Thread thread;
     String id;
-    int startingTime;
+    int startTime;
     int burstTime;
-    int arrivalTime;
-    int priority;
-    int timeSlotsGranted = 0;
     volatile STATE state;
-    int waitingTime = 0;
-    int processedTime = 0;
+    volatile int processedTime = 0;
 
-    public Process(String id, int startingTime, int burstTime, int priority) {
+    CommandReader commandReader;
+    MemoryManager memoryManager;
+
+    Semaphore sem;
+
+    boolean readFile;
+
+    Timer timer;
+
+    public Process(String id, int startTime, int burstTime, 
+                    CommandReader commandReader, MemoryManager memoryManager,
+                    Semaphore sem, Timer timer) {
         this.id = id;
-        this.startingTime = startingTime;
+        this.startTime = startTime;
         this.burstTime = burstTime;
 
+        this.commandReader = commandReader;
+        this.memoryManager = memoryManager;
+
+        this.sem = sem;
+        this.readFile = false;
+        this.timer = timer;
 
         thread = new Thread(this, id);
     }
 
-    public void increaseTimeSlot() {
-        timeSlotsGranted++;
-    }
+	@Override
+	public void run() {
+        while(state == STATE.STARTED) {
+            try {
+                System.out.println("Thread is waiting");
+                sem.acquire();
+                System.out.println("Thread is continuing");
 
-    public void setPriority(int newPriority) {
-        this.priority = newPriority;
-    }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            commandReader.setProcess(this);
+
+            System.out.println("Read file");
+            while(readFile) {
+                
+                commandReader.readNextCommand();
+                
+                int sleep = calculateAPICallTime();
+                int currentTime = timer.getTime();
+                //System.out.println("Sleeping for: " + sleep + " Time: " + currentTime + " id" + id);
+
+                try {
+                    Thread.sleep(sleep);
+                    //processedTime += sleep;
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+
+            sem.release();
+            System.out.println("Released");
+        }
+	}
 
     public void startProcess() {
+        state = STATE.STARTED;
         thread.start();
     }
 
-    public void terminate() {
-        state = STATE.TERMINATED;
+    public void finish() {
+        state = STATE.FINISHED;
         //thread.interrupt();
     }
 
-    public void changeState() {
-        if(processedTime >= burstTime) {
-            terminate();
-            return;
-        }
-        switch(state) {
-            case ARRIVED:
-                state = STATE.STARTED;
-                startProcess();
-            break;
-            case STARTED:
-                state = STATE.PAUSED;
-                //suspendProcess();
-            break;
-            case PAUSED:
-                state = STATE.RESUMED;
-                //resumeProcess();
-            break;
-            case RESUMED:
-                state = STATE.PAUSED;
-                //suspendProcess();
-            break;
-        }
+    public void store(String var, String val) {
+        memoryManager.store(var, val, timer.getTime(), id);
     }
 
-    public void increaseWaitingTime(int wt) {
-        this.waitingTime += wt;
+    public void release(String id) {
+        memoryManager.release(id, timer.getTime(), id);
     }
 
-	@Override
-	public void run() {
-		while(state != STATE.TERMINATED) {
-	        switch(state) {
-            case ARRIVED:
-                // do nothing
-            break;
-	            case STARTED:
-	            	// start the process
-	            	//System.out.println("ID: " + id + " " + state.value);
-	            break;
-	            case PAUSED:
-	            	// Pause process
-	            	//System.out.println("ID: " + id + " " + state.value);
-	            break;
-	            case RESUMED:
-	                // Continue Executing process
-	            	//System.out.println("ID: " + id + " " + state.value);
-	            break;
-	            default:
-	            	// state doesnt matter
-	            break;
-	        }
-		}
-		
-		// we can finish this thread once its state has been set to terminated
-		System.out.println("THIS PROCESS ID: " + id + " finished");
-		return;
-	}
+    public void lookup(String id) {
+        memoryManager.lookup(id, timer.getTime(), id);
+    }
+    
+    public void startReadingFile() {
+        System.out.println("starting read");
+        readFile = true;
+    }
+
+    public void stopReadingFile() {
+        System.out.println("stopping read");
+
+        readFile = false;
+    }
+
+    private int calculateAPICallTime() {
+        Random rand = new Random();
+        int remainingTime = burstTime - processedTime;
+        remainingTime = remainingTime <= 1 ? 10 : remainingTime;
+        //System.out.println("Remaining tie: " + remainingTime);
+        return Math.min(rand.ints(1,remainingTime).findFirst().getAsInt(), rand.ints(100, 1000).findFirst().getAsInt());
+    }
 }
 

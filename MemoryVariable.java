@@ -1,13 +1,13 @@
 public class MemoryVariable {
     String name;
-    int value;
+    String value;
 
-    public MemoryVariable (String name, int value) {
+    public MemoryVariable (String name, String value) {
         this.name = name;
         this.value = value;
     }
 
-    public void setValue(int value) {
+    public void setValue(String value) {
         this.value = value;
     }
 }

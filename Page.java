@@ -7,19 +7,22 @@ public class Page {
     int lastAccessTime;
     List<Integer> history = new ArrayList<Integer>();
 
-    public Page(String id, int value) {
+    public Page(String id, String value, int time) {
         this.id = id;
-        //this.value =  value;
+        
+        lastAccessTime = time;
+        history.add(time);
+
         content = new MemoryVariable(id, value);
     }
 
-    public void setValue(int value) {
+    public void setValue(String value, int time) {
         //this.value = value;
+        lastAccessTime = time;
         content.setValue(value);
     }
 
     public void setAcccessTime(int accessTime) {
         this.lastAccessTime = accessTime;
-        history.add(accessTime);
     }
 }

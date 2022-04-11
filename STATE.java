@@ -1,10 +1,8 @@
 
 public enum STATE {
-    ARRIVED("Arrived"),
     STARTED("Started"), 
-    PAUSED("Paused"),
     RESUMED("Resumed"),
-    TERMINATED("Terminated");
+    FINISHED("Finished");
 
     String value;
 

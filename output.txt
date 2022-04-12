@@ -1,0 +1,2364 @@
+
+Clock: 1004, Process 1: Started.
+Clock: 1004, Process 1, Store: Variable 1, Value: 5
+Clock: 1307, Process 1, Store: Variable 2, Value: 3
+Clock: 1329, Process 1, Store: Variable 3, Value: 7
+Clock: 1636, Process 1, Store: Variable 4, Value: 6
+Clock: 1759, Process 1, Store: Variable 5, Value: 2
+Clock: 1862, Process 3, Lookup: Variable 3, Value: 7
+Clock: 1866, Process 1, Store: Variable 6, Value: 8
+Clock: 1997, Process 1, Lookup: Variable 1, Value: 5
+Clock: 1997, Process 1, Store: Variable 1, Value: 10
+Clock: 2000, Process 2: Started.
+Clock: 2092, Process 2, Release: Variable 2
+Clock: 2138, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2138, Process 1, Store: Variable 1, Value: 5
+Clock: 2164, Process 1, Store: Variable 2, Value: 3
+Clock: 2167, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2167, Process 1, Store: Variable 3, Value: 7
+Clock: 2208, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2208, Process 1, Store: Variable 4, Value: 6
+Clock: 2378, Process 2, Memory Manager, Swap: Variable 5 with Variable 1
+Clock: 2378, Process 2, Lookup: Variable 5, Value: 2
+Clock: 2378, Process 2, Store: Variable 5, Value: 2
+Clock: 2571, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2572, Process 1, Memory Manager, Swap: Variable 6 with Variable 2
+Clock: 2572, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2572, Process 1, Store: Variable 6, Value: 8
+Clock: 2574, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2574, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2574, Process 1, Store: Variable 1, Value: 10
+Clock: 2579, Process 2, Release: Variable 2
+Clock: 2580, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2580, Process 1, Store: Variable 1, Value: 5
+Clock: 2581, Process 1, Store: Variable 2, Value: 3
+Clock: 2583, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2583, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2583, Process 1, Store: Variable 3, Value: 7
+Clock: 2589, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2589, Process 1, Store: Variable 4, Value: 6
+Clock: 2592, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2592, Process 1, Store: Variable 5, Value: 2
+Clock: 2594, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2600, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2600, Process 1, Store: Variable 6, Value: 8
+Clock: 2603, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2603, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2603, Process 1, Store: Variable 1, Value: 10
+Clock: 2604, Process 2, Release: Variable 2
+Clock: 2605, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2605, Process 1, Store: Variable 1, Value: 5
+Clock: 2606, Process 1, Store: Variable 2, Value: 3
+Clock: 2607, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2607, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2607, Process 1, Store: Variable 3, Value: 7
+Clock: 2608, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2608, Process 1, Store: Variable 4, Value: 6
+Clock: 2609, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2609, Process 1, Store: Variable 5, Value: 2
+Clock: 2609, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2612, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2612, Process 1, Store: Variable 6, Value: 8
+Clock: 2616, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2616, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2616, Process 1, Store: Variable 1, Value: 10
+Clock: 2619, Process 2, Release: Variable 2
+Clock: 2621, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2621, Process 1, Store: Variable 1, Value: 5
+Clock: 2621, Process 1, Store: Variable 2, Value: 3
+Clock: 2622, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2622, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2622, Process 1, Store: Variable 3, Value: 7
+Clock: 2622, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2622, Process 1, Store: Variable 4, Value: 6
+Clock: 2626, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2626, Process 1, Store: Variable 5, Value: 2
+Clock: 2628, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2629, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2629, Process 1, Store: Variable 6, Value: 8
+Clock: 2631, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2631, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2631, Process 1, Store: Variable 1, Value: 10
+Clock: 2633, Process 2, Release: Variable 2
+Clock: 2635, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2635, Process 1, Store: Variable 1, Value: 5
+Clock: 2637, Process 1, Store: Variable 2, Value: 3
+Clock: 2639, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2639, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2639, Process 1, Store: Variable 3, Value: 7
+Clock: 2639, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2639, Process 1, Store: Variable 4, Value: 6
+Clock: 2639, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2639, Process 1, Store: Variable 5, Value: 2
+Clock: 2642, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2646, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2646, Process 1, Store: Variable 6, Value: 8
+Clock: 2647, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2647, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2647, Process 1, Store: Variable 1, Value: 10
+Clock: 2651, Process 2, Release: Variable 2
+Clock: 2654, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2654, Process 1, Store: Variable 1, Value: 5
+Clock: 2655, Process 1, Store: Variable 2, Value: 3
+Clock: 2658, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2658, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2658, Process 1, Store: Variable 3, Value: 7
+Clock: 2659, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2659, Process 1, Store: Variable 4, Value: 6
+Clock: 2660, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2660, Process 1, Store: Variable 5, Value: 2
+Clock: 2661, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2662, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2662, Process 1, Store: Variable 6, Value: 8
+Clock: 2662, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2662, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2662, Process 1, Store: Variable 1, Value: 10
+Clock: 2664, Process 2, Release: Variable 2
+Clock: 2665, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2665, Process 1, Store: Variable 1, Value: 5
+Clock: 2670, Process 1, Store: Variable 2, Value: 3
+Clock: 2671, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2671, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2671, Process 1, Store: Variable 3, Value: 7
+Clock: 2675, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2675, Process 1, Store: Variable 4, Value: 6
+Clock: 2676, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2676, Process 1, Store: Variable 5, Value: 2
+Clock: 2679, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2682, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2682, Process 1, Store: Variable 6, Value: 8
+Clock: 2686, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2686, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2686, Process 1, Store: Variable 1, Value: 10
+Clock: 2686, Process 2, Release: Variable 2
+Clock: 2687, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2687, Process 1, Store: Variable 1, Value: 5
+Clock: 2688, Process 1, Store: Variable 2, Value: 3
+Clock: 2689, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2689, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2689, Process 1, Store: Variable 3, Value: 7
+Clock: 2689, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2689, Process 1, Store: Variable 4, Value: 6
+Clock: 2691, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2691, Process 1, Store: Variable 5, Value: 2
+Clock: 2692, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2695, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2695, Process 1, Store: Variable 6, Value: 8
+Clock: 2709, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2709, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2709, Process 1, Store: Variable 1, Value: 10
+Clock: 2716, Process 2, Release: Variable 2
+Clock: 2726, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2726, Process 1, Store: Variable 1, Value: 5
+Clock: 2727, Process 1, Store: Variable 2, Value: 3
+Clock: 2734, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2734, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2734, Process 1, Store: Variable 3, Value: 7
+Clock: 2738, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2738, Process 1, Store: Variable 4, Value: 6
+Clock: 2743, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2743, Process 1, Store: Variable 5, Value: 2
+Clock: 2747, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2757, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2757, Process 1, Store: Variable 6, Value: 8
+Clock: 2760, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2760, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2760, Process 1, Store: Variable 1, Value: 10
+Clock: 2763, Process 2, Release: Variable 2
+Clock: 2766, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2766, Process 1, Store: Variable 1, Value: 5
+Clock: 2769, Process 1, Store: Variable 2, Value: 3
+Clock: 2774, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2774, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2774, Process 1, Store: Variable 3, Value: 7
+Clock: 2776, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2776, Process 1, Store: Variable 4, Value: 6
+Clock: 2776, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2776, Process 1, Store: Variable 5, Value: 2
+Clock: 2781, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2784, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2784, Process 1, Store: Variable 6, Value: 8
+Clock: 2787, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2787, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2787, Process 1, Store: Variable 1, Value: 10
+Clock: 2795, Process 2, Release: Variable 2
+Clock: 2812, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2812, Process 1, Store: Variable 1, Value: 5
+Clock: 2824, Process 1, Store: Variable 2, Value: 3
+Clock: 2828, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2828, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2828, Process 1, Store: Variable 3, Value: 7
+Clock: 2829, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2829, Process 1, Store: Variable 4, Value: 6
+Clock: 2831, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2831, Process 1, Store: Variable 5, Value: 2
+Clock: 2841, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2856, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2856, Process 1, Store: Variable 6, Value: 8
+Clock: 2861, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2861, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2861, Process 1, Store: Variable 1, Value: 10
+Clock: 2867, Process 2, Release: Variable 2
+Clock: 2870, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2870, Process 1, Store: Variable 1, Value: 5
+Clock: 2871, Process 1, Store: Variable 2, Value: 3
+Clock: 2875, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2875, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2875, Process 1, Store: Variable 3, Value: 7
+Clock: 2882, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2882, Process 1, Store: Variable 4, Value: 6
+Clock: 2892, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2892, Process 1, Store: Variable 5, Value: 2
+Clock: 2901, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2901, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2901, Process 1, Store: Variable 6, Value: 8
+Clock: 2901, Process 1, Memory Manager, Swap: Variable 1 with Variable 5
+Clock: 2901, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2901, Process 1, Store: Variable 1, Value: 10
+Clock: 2910, Process 2, Release: Variable 2
+Clock: 2915, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2915, Process 1, Store: Variable 1, Value: 5
+Clock: 2916, Process 1, Store: Variable 2, Value: 3
+Clock: 2917, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2917, Process 1, Store: Variable 3, Value: 7
+Clock: 2920, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2920, Process 1, Store: Variable 4, Value: 6
+Clock: 2920, Process 1, Memory Manager, Swap: Variable 5 with Variable 1
+Clock: 2920, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2920, Process 1, Store: Variable 5, Value: 2
+Clock: 2922, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2924, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2924, Process 1, Store: Variable 6, Value: 8
+Clock: 2925, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2925, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2925, Process 1, Store: Variable 1, Value: 10
+Clock: 2926, Process 2, Release: Variable 2
+Clock: 2927, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2927, Process 1, Store: Variable 1, Value: 5
+Clock: 2928, Process 1, Store: Variable 2, Value: 3
+Clock: 2931, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2931, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2931, Process 1, Store: Variable 3, Value: 7
+Clock: 2934, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2934, Process 1, Store: Variable 4, Value: 6
+Clock: 2938, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2938, Process 1, Store: Variable 5, Value: 2
+Clock: 2938, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2952, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2952, Process 1, Store: Variable 6, Value: 8
+Clock: 2956, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2956, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2956, Process 1, Store: Variable 1, Value: 10
+Clock: 2962, Process 2, Release: Variable 2
+Clock: 2968, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2968, Process 1, Store: Variable 1, Value: 5
+Clock: 2978, Process 1, Store: Variable 2, Value: 3
+Clock: 2985, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 2985, Process 1, Lookup: Variable 3, Value: 7
+Clock: 2985, Process 1, Store: Variable 3, Value: 7
+Clock: 2986, Process 1, Lookup: Variable 4, Value: 6
+Clock: 2986, Process 1, Store: Variable 4, Value: 6
+Clock: 2987, Process 1, Lookup: Variable 5, Value: 2
+Clock: 2987, Process 1, Store: Variable 5, Value: 2
+Clock: 2989, Process 3, Lookup: Variable 3, Value: 7
+Clock: 2990, Process 1, Lookup: Variable 6, Value: 8
+Clock: 2990, Process 1, Store: Variable 6, Value: 8
+Clock: 2991, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 2991, Process 1, Lookup: Variable 1, Value: 5
+Clock: 2991, Process 1, Store: Variable 1, Value: 10
+Clock: 3001, Process 2, Release: Variable 2
+Clock: 3009, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3009, Process 1, Store: Variable 1, Value: 5
+Clock: 3017, Process 1, Store: Variable 2, Value: 3
+Clock: 3020, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3020, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3020, Process 1, Store: Variable 3, Value: 7
+Clock: 3022, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3022, Process 1, Store: Variable 4, Value: 6
+Clock: 3023, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3023, Process 1, Store: Variable 5, Value: 2
+Clock: 3023, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3027, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3027, Process 1, Store: Variable 6, Value: 8
+Clock: 3028, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3028, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3028, Process 1, Store: Variable 1, Value: 10
+Clock: 3029, Process 2, Release: Variable 2
+Clock: 3031, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3031, Process 1, Store: Variable 1, Value: 5
+Clock: 3032, Process 1, Store: Variable 2, Value: 3
+Clock: 3033, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3033, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3033, Process 1, Store: Variable 3, Value: 7
+Clock: 3034, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3034, Process 1, Store: Variable 4, Value: 6
+Clock: 3036, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3036, Process 1, Store: Variable 5, Value: 2
+Clock: 3038, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3040, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3040, Process 1, Store: Variable 6, Value: 8
+Clock: 3041, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3041, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3041, Process 1, Store: Variable 1, Value: 10
+Clock: 3043, Process 2, Release: Variable 2
+Clock: 3044, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3044, Process 1, Store: Variable 1, Value: 5
+Clock: 3044, Process 1, Store: Variable 2, Value: 3
+Clock: 3044, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3044, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3044, Process 1, Store: Variable 3, Value: 7
+Clock: 3045, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3045, Process 1, Store: Variable 4, Value: 6
+Clock: 3047, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3047, Process 1, Store: Variable 5, Value: 2
+Clock: 3053, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3066, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3066, Process 1, Store: Variable 6, Value: 8
+Clock: 3069, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3069, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3069, Process 1, Store: Variable 1, Value: 10
+Clock: 3076, Process 2, Release: Variable 2
+Clock: 3078, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3078, Process 1, Store: Variable 1, Value: 5
+Clock: 3088, Process 1, Store: Variable 2, Value: 3
+Clock: 3092, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3092, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3092, Process 1, Store: Variable 3, Value: 7
+Clock: 3094, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3094, Process 1, Store: Variable 4, Value: 6
+Clock: 3095, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3095, Process 1, Store: Variable 5, Value: 2
+Clock: 3096, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3098, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3098, Process 1, Store: Variable 6, Value: 8
+Clock: 3103, Process 1, Memory Manager, Swap: Variable 1 with Variable 6
+Clock: 3103, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3103, Process 1, Store: Variable 1, Value: 10
+Clock: 3111, Process 2, Release: Variable 2
+Clock: 3119, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3119, Process 1, Store: Variable 1, Value: 5
+Clock: 3135, Process 1, Store: Variable 2, Value: 3
+Clock: 3139, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3139, Process 1, Store: Variable 3, Value: 7
+Clock: 3153, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3153, Process 1, Store: Variable 4, Value: 6
+Clock: 3163, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3163, Process 1, Store: Variable 5, Value: 2
+Clock: 3171, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3179, Process 1, Memory Manager, Swap: Variable 6 with Variable 1
+Clock: 3179, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3179, Process 1, Store: Variable 6, Value: 8
+Clock: 3180, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3180, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3180, Process 1, Store: Variable 1, Value: 10
+Clock: 3183, Process 2, Release: Variable 2
+Clock: 3189, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3189, Process 1, Store: Variable 1, Value: 5
+Clock: 3196, Process 1, Store: Variable 2, Value: 3
+Clock: 3205, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3205, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3205, Process 1, Store: Variable 3, Value: 7
+Clock: 3213, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3213, Process 1, Store: Variable 4, Value: 6
+Clock: 3218, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3218, Process 1, Store: Variable 5, Value: 2
+Clock: 3218, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3218, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3218, Process 1, Store: Variable 6, Value: 8
+Clock: 3224, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3224, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3224, Process 1, Store: Variable 1, Value: 10
+Clock: 3240, Process 2, Release: Variable 2
+Clock: 3241, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3241, Process 1, Store: Variable 1, Value: 5
+Clock: 3251, Process 1, Store: Variable 2, Value: 3
+Clock: 3253, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3253, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3253, Process 1, Store: Variable 3, Value: 7
+Clock: 3254, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3254, Process 1, Store: Variable 4, Value: 6
+Clock: 3255, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3255, Process 1, Store: Variable 5, Value: 2
+Clock: 3258, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3258, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3258, Process 1, Store: Variable 6, Value: 8
+Clock: 3258, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3258, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3258, Process 1, Store: Variable 1, Value: 10
+Clock: 3259, Process 2, Release: Variable 2
+Clock: 3261, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3261, Process 1, Store: Variable 1, Value: 5
+Clock: 3266, Process 1, Store: Variable 2, Value: 3
+Clock: 3267, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3267, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3267, Process 1, Store: Variable 3, Value: 7
+Clock: 3268, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3268, Process 1, Store: Variable 4, Value: 6
+Clock: 3271, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3271, Process 1, Store: Variable 5, Value: 2
+Clock: 3272, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3286, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3286, Process 1, Store: Variable 6, Value: 8
+Clock: 3294, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3294, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3294, Process 1, Store: Variable 1, Value: 10
+Clock: 3300, Process 2, Release: Variable 2
+Clock: 3304, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3304, Process 1, Store: Variable 1, Value: 5
+Clock: 3317, Process 1, Store: Variable 2, Value: 3
+Clock: 3320, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3320, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3320, Process 1, Store: Variable 3, Value: 7
+Clock: 3330, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3330, Process 1, Store: Variable 4, Value: 6
+Clock: 3341, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3341, Process 1, Store: Variable 5, Value: 2
+Clock: 3342, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3350, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3350, Process 1, Store: Variable 6, Value: 8
+Clock: 3355, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3355, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3355, Process 1, Store: Variable 1, Value: 10
+Clock: 3358, Process 2, Release: Variable 2
+Clock: 3359, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3359, Process 1, Store: Variable 1, Value: 5
+Clock: 3360, Process 1, Store: Variable 2, Value: 3
+Clock: 3363, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3363, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3363, Process 1, Store: Variable 3, Value: 7
+Clock: 3363, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3363, Process 1, Store: Variable 4, Value: 6
+Clock: 3364, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3364, Process 1, Store: Variable 5, Value: 2
+Clock: 3367, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3370, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3370, Process 1, Store: Variable 6, Value: 8
+Clock: 3373, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3373, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3373, Process 1, Store: Variable 1, Value: 10
+Clock: 3374, Process 2, Release: Variable 2
+Clock: 3375, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3375, Process 1, Store: Variable 1, Value: 5
+Clock: 3378, Process 1, Store: Variable 2, Value: 3
+Clock: 3384, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3384, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3384, Process 1, Store: Variable 3, Value: 7
+Clock: 3386, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3386, Process 1, Store: Variable 4, Value: 6
+Clock: 3388, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3388, Process 1, Store: Variable 5, Value: 2
+Clock: 3388, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3390, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3390, Process 1, Store: Variable 6, Value: 8
+Clock: 3392, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3392, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3392, Process 1, Store: Variable 1, Value: 10
+Clock: 3393, Process 2, Release: Variable 2
+Clock: 3395, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3395, Process 1, Store: Variable 1, Value: 5
+Clock: 3398, Process 1, Store: Variable 2, Value: 3
+Clock: 3399, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3399, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3399, Process 1, Store: Variable 3, Value: 7
+Clock: 3400, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3400, Process 1, Store: Variable 4, Value: 6
+Clock: 3412, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3412, Process 1, Store: Variable 5, Value: 2
+Clock: 3415, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3424, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3424, Process 1, Store: Variable 6, Value: 8
+Clock: 3424, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3424, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3424, Process 1, Store: Variable 1, Value: 10
+Clock: 3431, Process 2, Release: Variable 2
+Clock: 3432, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3432, Process 1, Store: Variable 1, Value: 5
+Clock: 3432, Process 1, Store: Variable 2, Value: 3
+Clock: 3435, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3435, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3435, Process 1, Store: Variable 3, Value: 7
+Clock: 3447, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3447, Process 1, Store: Variable 4, Value: 6
+Clock: 3454, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3454, Process 1, Store: Variable 5, Value: 2
+Clock: 3457, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3459, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3459, Process 1, Store: Variable 6, Value: 8
+Clock: 3467, Process 1, Memory Manager, Swap: Variable 1 with Variable 5
+Clock: 3467, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3467, Process 1, Store: Variable 1, Value: 10
+Clock: 3469, Process 2, Release: Variable 2
+Clock: 3470, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3470, Process 1, Store: Variable 1, Value: 5
+Clock: 3483, Process 1, Store: Variable 2, Value: 3
+Clock: 3491, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3491, Process 1, Store: Variable 3, Value: 7
+Clock: 3498, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3498, Process 1, Store: Variable 4, Value: 6
+Clock: 3515, Process 1, Memory Manager, Swap: Variable 5 with Variable 1
+Clock: 3515, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3515, Process 1, Store: Variable 5, Value: 2
+Clock: 3525, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3538, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3538, Process 1, Store: Variable 6, Value: 8
+Clock: 3540, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3540, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3540, Process 1, Store: Variable 1, Value: 10
+Clock: 3543, Process 2, Release: Variable 2
+Clock: 3545, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3545, Process 1, Store: Variable 1, Value: 5
+Clock: 3549, Process 1, Store: Variable 2, Value: 3
+Clock: 3551, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3551, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3551, Process 1, Store: Variable 3, Value: 7
+Clock: 3553, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3553, Process 1, Store: Variable 4, Value: 6
+Clock: 3555, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3555, Process 1, Store: Variable 5, Value: 2
+Clock: 3558, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3559, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3559, Process 1, Store: Variable 6, Value: 8
+Clock: 3563, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3563, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3563, Process 1, Store: Variable 1, Value: 10
+Clock: 3565, Process 2, Release: Variable 2
+Clock: 3568, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3568, Process 1, Store: Variable 1, Value: 5
+Clock: 3568, Process 1, Store: Variable 2, Value: 3
+Clock: 3570, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3570, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3570, Process 1, Store: Variable 3, Value: 7
+Clock: 3572, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3572, Process 1, Store: Variable 4, Value: 6
+Clock: 3572, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3572, Process 1, Store: Variable 5, Value: 2
+Clock: 3573, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3573, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3573, Process 1, Store: Variable 6, Value: 8
+Clock: 3574, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3574, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3574, Process 1, Store: Variable 1, Value: 10
+Clock: 3574, Process 2, Release: Variable 2
+Clock: 3579, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3579, Process 1, Store: Variable 1, Value: 5
+Clock: 3593, Process 1, Store: Variable 2, Value: 3
+Clock: 3594, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3594, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3594, Process 1, Store: Variable 3, Value: 7
+Clock: 3595, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3595, Process 1, Store: Variable 4, Value: 6
+Clock: 3606, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3606, Process 1, Store: Variable 5, Value: 2
+Clock: 3607, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3609, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3609, Process 1, Store: Variable 6, Value: 8
+Clock: 3609, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3609, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3609, Process 1, Store: Variable 1, Value: 10
+Clock: 3610, Process 2, Release: Variable 2
+Clock: 3612, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3612, Process 1, Store: Variable 1, Value: 5
+Clock: 3613, Process 1, Store: Variable 2, Value: 3
+Clock: 3613, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3613, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3613, Process 1, Store: Variable 3, Value: 7
+Clock: 3615, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3615, Process 1, Store: Variable 4, Value: 6
+Clock: 3615, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3615, Process 1, Store: Variable 5, Value: 2
+Clock: 3616, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3620, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3620, Process 1, Store: Variable 6, Value: 8
+Clock: 3622, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3622, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3622, Process 1, Store: Variable 1, Value: 10
+Clock: 3625, Process 2, Release: Variable 2
+Clock: 3626, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3626, Process 1, Store: Variable 1, Value: 5
+Clock: 3626, Process 1, Store: Variable 2, Value: 3
+Clock: 3627, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3627, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3627, Process 1, Store: Variable 3, Value: 7
+Clock: 3629, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3629, Process 1, Store: Variable 4, Value: 6
+Clock: 3631, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3631, Process 1, Store: Variable 5, Value: 2
+Clock: 3634, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3636, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3636, Process 1, Store: Variable 6, Value: 8
+Clock: 3636, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3636, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3636, Process 1, Store: Variable 1, Value: 10
+Clock: 3638, Process 2, Release: Variable 2
+Clock: 3641, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3641, Process 1, Store: Variable 1, Value: 5
+Clock: 3643, Process 1, Store: Variable 2, Value: 3
+Clock: 3646, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3646, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3646, Process 1, Store: Variable 3, Value: 7
+Clock: 3647, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3647, Process 1, Store: Variable 4, Value: 6
+Clock: 3648, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3648, Process 1, Store: Variable 5, Value: 2
+Clock: 3652, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3659, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3659, Process 1, Store: Variable 6, Value: 8
+Clock: 3661, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3661, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3661, Process 1, Store: Variable 1, Value: 10
+Clock: 3673, Process 2, Release: Variable 2
+Clock: 3674, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3674, Process 1, Store: Variable 1, Value: 5
+Clock: 3676, Process 1, Store: Variable 2, Value: 3
+Clock: 3684, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3684, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3684, Process 1, Store: Variable 3, Value: 7
+Clock: 3686, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3686, Process 1, Store: Variable 4, Value: 6
+Clock: 3694, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3694, Process 1, Store: Variable 5, Value: 2
+Clock: 3700, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3710, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3710, Process 1, Store: Variable 6, Value: 8
+Clock: 3713, Process 1, Memory Manager, Swap: Variable 1 with Variable 6
+Clock: 3713, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3713, Process 1, Store: Variable 1, Value: 10
+Clock: 3713, Process 2, Release: Variable 2
+Clock: 3714, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3714, Process 1, Store: Variable 1, Value: 5
+Clock: 3714, Process 1, Store: Variable 2, Value: 3
+Clock: 3726, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3726, Process 1, Store: Variable 3, Value: 7
+Clock: 3729, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3729, Process 1, Store: Variable 4, Value: 6
+Clock: 3739, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3739, Process 1, Store: Variable 5, Value: 2
+Clock: 3743, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3744, Process 1, Memory Manager, Swap: Variable 6 with Variable 1
+Clock: 3744, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3744, Process 1, Store: Variable 6, Value: 8
+Clock: 3757, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3757, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3757, Process 1, Store: Variable 1, Value: 10
+Clock: 3757, Process 2, Release: Variable 2
+Clock: 3757, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3757, Process 1, Store: Variable 1, Value: 5
+Clock: 3757, Process 1, Store: Variable 2, Value: 3
+Clock: 3767, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3767, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3767, Process 1, Store: Variable 3, Value: 7
+Clock: 3768, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3768, Process 1, Store: Variable 4, Value: 6
+Clock: 3779, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3779, Process 1, Store: Variable 5, Value: 2
+Clock: 3794, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3804, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3804, Process 1, Store: Variable 6, Value: 8
+Clock: 3806, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3806, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3806, Process 1, Store: Variable 1, Value: 10
+Clock: 3808, Process 2, Release: Variable 2
+Clock: 3811, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3811, Process 1, Store: Variable 1, Value: 5
+Clock: 3811, Process 1, Store: Variable 2, Value: 3
+Clock: 3814, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3814, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3814, Process 1, Store: Variable 3, Value: 7
+Clock: 3822, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3822, Process 1, Store: Variable 4, Value: 6
+Clock: 3839, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3839, Process 1, Store: Variable 5, Value: 2
+Clock: 3847, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3851, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3851, Process 1, Store: Variable 6, Value: 8
+Clock: 3851, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3851, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3851, Process 1, Store: Variable 1, Value: 10
+Clock: 3859, Process 2, Release: Variable 2
+Clock: 3863, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3863, Process 1, Store: Variable 1, Value: 5
+Clock: 3863, Process 1, Store: Variable 2, Value: 3
+Clock: 3872, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3872, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3872, Process 1, Store: Variable 3, Value: 7
+Clock: 3875, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3875, Process 1, Store: Variable 4, Value: 6
+Clock: 3879, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3879, Process 1, Store: Variable 5, Value: 2
+Clock: 3887, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3893, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3893, Process 1, Store: Variable 6, Value: 8
+Clock: 3896, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3896, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3896, Process 1, Store: Variable 1, Value: 10
+Clock: 3901, Process 2, Release: Variable 2
+Clock: 3904, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3904, Process 1, Store: Variable 1, Value: 5
+Clock: 3907, Process 1, Store: Variable 2, Value: 3
+Clock: 3908, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3908, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3908, Process 1, Store: Variable 3, Value: 7
+Clock: 3914, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3914, Process 1, Store: Variable 4, Value: 6
+Clock: 3914, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3914, Process 1, Store: Variable 5, Value: 2
+Clock: 3921, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3924, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3924, Process 1, Store: Variable 6, Value: 8
+Clock: 3937, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 3937, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3937, Process 1, Store: Variable 1, Value: 10
+Clock: 3948, Process 2, Release: Variable 2
+Clock: 3950, Process 1, Lookup: Variable 1, Value: 5
+Clock: 3950, Process 1, Store: Variable 1, Value: 5
+Clock: 3952, Process 1, Store: Variable 2, Value: 3
+Clock: 3955, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 3955, Process 1, Lookup: Variable 3, Value: 7
+Clock: 3955, Process 1, Store: Variable 3, Value: 7
+Clock: 3965, Process 1, Lookup: Variable 4, Value: 6
+Clock: 3965, Process 1, Store: Variable 4, Value: 6
+Clock: 3977, Process 1, Lookup: Variable 5, Value: 2
+Clock: 3977, Process 1, Store: Variable 5, Value: 2
+Clock: 3991, Process 3, Lookup: Variable 3, Value: 7
+Clock: 3998, Process 1, Lookup: Variable 6, Value: 8
+Clock: 3998, Process 1, Store: Variable 6, Value: 8
+Clock: 4000, Process 3: Started.
+Clock: 4013, Process 1, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 4013, Process 1, Lookup: Variable 1, Value: 5
+Clock: 4013, Process 1, Store: Variable 1, Value: 10
+Clock: 4028, Process 2, Release: Variable 2
+Clock: 4030, Process 1, Lookup: Variable 1, Value: 5
+Clock: 4030, Process 1, Store: Variable 1, Value: 5
+Clock: 4040, Process 1, Store: Variable 2, Value: 3
+Clock: 4047, Process 1, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 4047, Process 1, Lookup: Variable 3, Value: 7
+Clock: 4047, Process 1, Store: Variable 3, Value: 7
+Clock: 4049, Process 1, Lookup: Variable 4, Value: 6
+Clock: 4049, Process 1, Store: Variable 4, Value: 6
+Clock: 4049, Process 1, Lookup: Variable 5, Value: 2
+Clock: 4049, Process 1, Store: Variable 5, Value: 2
+Clock: 4062, Process 3, Lookup: Variable 3, Value: 7
+Clock: 4073, Process 1, Lookup: Variable 6, Value: 8
+Clock: 4073, Process 1, Store: Variable 6, Value: 8
+Clock: 4080, Process 1, Memory Manager, Swap: Variable 1 with Variable 5
+Clock: 4080, Process 1, Lookup: Variable 1, Value: 5
+Clock: 4080, Process 1, Store: Variable 1, Value: 10
+Clock: 4081, Process 2, Release: Variable 2
+Clock: 4082, Process 1, Lookup: Variable 1, Value: 5
+Clock: 4082, Process 1, Store: Variable 1, Value: 5
+Clock: 4082, Process 1, Store: Variable 2, Value: 3
+Clock: 4086, Process 1, Lookup: Variable 3, Value: 7
+Clock: 4086, Process 1, Store: Variable 3, Value: 7
+Clock: 4101, Process 1, Lookup: Variable 4, Value: 6
+Clock: 4101, Process 1, Store: Variable 4, Value: 6
+Clock: 4104, Process 1, Memory Manager, Swap: Variable 5 with Variable 1
+Clock: 4104, Process 1, Lookup: Variable 5, Value: 2
+Clock: 4104, Process 1, Store: Variable 5, Value: 2
+Clock: 4113, Process 3, Lookup: Variable 3, Value: 7
+Clock: 4145, Process 1, Lookup: Variable 6, Value: 8
+Clock: 4145, Process 1, Store: Variable 6, Value: 8
+Clock: 4150, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 4150, Process 2, Lookup: Variable 1, Value: 5
+Clock: 4150, Process 2, Store: Variable 1, Value: 10
+Clock: 4254, Process 2, Release: Variable 2
+Clock: 4460, Process 2, Lookup: Variable 1, Value: 5
+Clock: 4460, Process 2, Store: Variable 1, Value: 5
+Clock: 4902, Process 2, Store: Variable 2, Value: 3
+Clock: 5000, Process 4: Started.
+Clock: 5119, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5119, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5119, Process 2, Store: Variable 3, Value: 7
+Clock: 5132, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5132, Process 2, Store: Variable 4, Value: 6
+Clock: 5319, Process 3, Lookup: Variable 5, Value: 2
+Clock: 5319, Process 3, Store: Variable 5, Value: 2
+Clock: 5610, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5614, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5614, Process 2, Store: Variable 6, Value: 8
+Clock: 5618, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5618, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5618, Process 2, Store: Variable 1, Value: 10
+Clock: 5621, Process 2, Release: Variable 2
+Clock: 5624, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5624, Process 2, Store: Variable 1, Value: 5
+Clock: 5625, Process 2, Store: Variable 2, Value: 3
+Clock: 5628, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5628, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5628, Process 2, Store: Variable 3, Value: 7
+Clock: 5635, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5635, Process 2, Store: Variable 4, Value: 6
+Clock: 5640, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5640, Process 2, Store: Variable 5, Value: 2
+Clock: 5646, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5665, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5665, Process 2, Store: Variable 6, Value: 8
+Clock: 5667, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5667, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5667, Process 2, Store: Variable 1, Value: 10
+Clock: 5669, Process 2, Release: Variable 2
+Clock: 5670, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5670, Process 2, Store: Variable 1, Value: 5
+Clock: 5671, Process 2, Store: Variable 2, Value: 3
+Clock: 5672, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5672, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5672, Process 2, Store: Variable 3, Value: 7
+Clock: 5675, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5675, Process 2, Store: Variable 4, Value: 6
+Clock: 5675, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5675, Process 2, Store: Variable 5, Value: 2
+Clock: 5675, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5677, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5677, Process 2, Store: Variable 6, Value: 8
+Clock: 5682, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5682, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5682, Process 2, Store: Variable 1, Value: 10
+Clock: 5686, Process 2, Release: Variable 2
+Clock: 5690, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5690, Process 2, Store: Variable 1, Value: 5
+Clock: 5695, Process 2, Store: Variable 2, Value: 3
+Clock: 5697, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5697, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5697, Process 2, Store: Variable 3, Value: 7
+Clock: 5699, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5699, Process 2, Store: Variable 4, Value: 6
+Clock: 5700, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5700, Process 2, Store: Variable 5, Value: 2
+Clock: 5700, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5703, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5703, Process 2, Store: Variable 6, Value: 8
+Clock: 5705, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5705, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5705, Process 2, Store: Variable 1, Value: 10
+Clock: 5710, Process 2, Release: Variable 2
+Clock: 5715, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5715, Process 2, Store: Variable 1, Value: 5
+Clock: 5738, Process 2, Store: Variable 2, Value: 3
+Clock: 5750, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5750, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5750, Process 2, Store: Variable 3, Value: 7
+Clock: 5760, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5760, Process 2, Store: Variable 4, Value: 6
+Clock: 5762, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5762, Process 2, Store: Variable 5, Value: 2
+Clock: 5780, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5784, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5784, Process 2, Store: Variable 6, Value: 8
+Clock: 5786, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5786, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5786, Process 2, Store: Variable 1, Value: 10
+Clock: 5796, Process 2, Release: Variable 2
+Clock: 5798, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5798, Process 2, Store: Variable 1, Value: 5
+Clock: 5803, Process 2, Store: Variable 2, Value: 3
+Clock: 5806, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5806, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5806, Process 2, Store: Variable 3, Value: 7
+Clock: 5807, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5807, Process 2, Store: Variable 4, Value: 6
+Clock: 5810, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5810, Process 2, Store: Variable 5, Value: 2
+Clock: 5814, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5817, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5817, Process 2, Store: Variable 6, Value: 8
+Clock: 5820, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5820, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5820, Process 2, Store: Variable 1, Value: 10
+Clock: 5825, Process 2, Release: Variable 2
+Clock: 5840, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5840, Process 2, Store: Variable 1, Value: 5
+Clock: 5854, Process 2, Store: Variable 2, Value: 3
+Clock: 5866, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5866, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5866, Process 2, Store: Variable 3, Value: 7
+Clock: 5885, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5885, Process 2, Store: Variable 4, Value: 6
+Clock: 5886, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5886, Process 2, Store: Variable 5, Value: 2
+Clock: 5896, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5903, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5903, Process 2, Store: Variable 6, Value: 8
+Clock: 5924, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5924, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5924, Process 2, Store: Variable 1, Value: 10
+Clock: 5926, Process 2, Release: Variable 2
+Clock: 5943, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5943, Process 2, Store: Variable 1, Value: 5
+Clock: 5950, Process 2, Store: Variable 2, Value: 3
+Clock: 5967, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5967, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5967, Process 2, Store: Variable 3, Value: 7
+Clock: 5969, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5969, Process 2, Store: Variable 4, Value: 6
+Clock: 5971, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5971, Process 2, Store: Variable 5, Value: 2
+Clock: 5971, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5971, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5971, Process 2, Store: Variable 6, Value: 8
+Clock: 5973, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5973, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5973, Process 2, Store: Variable 1, Value: 10
+Clock: 5973, Process 2, Release: Variable 2
+Clock: 5976, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5976, Process 2, Store: Variable 1, Value: 5
+Clock: 5978, Process 2, Store: Variable 2, Value: 3
+Clock: 5982, Process 2, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 5982, Process 2, Lookup: Variable 3, Value: 7
+Clock: 5982, Process 2, Store: Variable 3, Value: 7
+Clock: 5983, Process 2, Lookup: Variable 4, Value: 6
+Clock: 5983, Process 2, Store: Variable 4, Value: 6
+Clock: 5983, Process 2, Lookup: Variable 5, Value: 2
+Clock: 5983, Process 2, Store: Variable 5, Value: 2
+Clock: 5985, Process 3, Lookup: Variable 3, Value: 7
+Clock: 5988, Process 2, Lookup: Variable 6, Value: 8
+Clock: 5988, Process 2, Store: Variable 6, Value: 8
+Clock: 5989, Process 2, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 5989, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5989, Process 2, Store: Variable 1, Value: 10
+Clock: 5990, Process 2, Release: Variable 2
+Clock: 5998, Process 2, Lookup: Variable 1, Value: 5
+Clock: 5998, Process 2, Store: Variable 1, Value: 5
+Clock: 6000, Process 5: Started.
+Clock: 6017, Process 3, Store: Variable 2, Value: 3
+Clock: 6033, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 6033, Process 3, Lookup: Variable 3, Value: 7
+Clock: 6033, Process 3, Store: Variable 3, Value: 7
+Clock: 6084, Process 3, Lookup: Variable 4, Value: 6
+Clock: 6084, Process 3, Store: Variable 4, Value: 6
+Clock: 6110, Process 3, Lookup: Variable 5, Value: 2
+Clock: 6110, Process 3, Store: Variable 5, Value: 2
+Clock: 6159, Process 3, Lookup: Variable 3, Value: 7
+Clock: 6323, Process 3, Lookup: Variable 6, Value: 8
+Clock: 6323, Process 3, Store: Variable 6, Value: 8
+Clock: 6329, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 6329, Process 3, Lookup: Variable 1, Value: 5
+Clock: 6329, Process 3, Store: Variable 1, Value: 10
+Clock: 6391, Process 2, Release: Variable 2
+Clock: 6412, Process 3, Lookup: Variable 1, Value: 5
+Clock: 6412, Process 3, Store: Variable 1, Value: 5
+Clock: 6470, Process 3, Store: Variable 2, Value: 3
+Clock: 6541, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 6541, Process 3, Lookup: Variable 3, Value: 7
+Clock: 6541, Process 3, Store: Variable 3, Value: 7
+Clock: 6611, Process 3, Lookup: Variable 4, Value: 6
+Clock: 6611, Process 3, Store: Variable 4, Value: 6
+Clock: 6640, Process 3, Lookup: Variable 5, Value: 2
+Clock: 6640, Process 3, Store: Variable 5, Value: 2
+Clock: 6666, Process 3, Lookup: Variable 3, Value: 7
+Clock: 6705, Process 3, Lookup: Variable 6, Value: 8
+Clock: 6705, Process 3, Store: Variable 6, Value: 8
+Clock: 6929, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 6929, Process 3, Lookup: Variable 1, Value: 5
+Clock: 6929, Process 3, Store: Variable 1, Value: 10
+Clock: 6981, Process 2, Release: Variable 2
+Clock: 7010, Process 3, Lookup: Variable 1, Value: 5
+Clock: 7010, Process 3, Store: Variable 1, Value: 5
+Clock: 7055, Process 3, Store: Variable 2, Value: 3
+Clock: 7060, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 7060, Process 3, Lookup: Variable 3, Value: 7
+Clock: 7060, Process 3, Store: Variable 3, Value: 7
+Clock: 7080, Process 3, Lookup: Variable 4, Value: 6
+Clock: 7080, Process 3, Store: Variable 4, Value: 6
+Clock: 7126, Process 3, Lookup: Variable 5, Value: 2
+Clock: 7126, Process 3, Store: Variable 5, Value: 2
+Clock: 7174, Process 3, Lookup: Variable 3, Value: 7
+Clock: 7191, Process 3, Lookup: Variable 6, Value: 8
+Clock: 7191, Process 3, Store: Variable 6, Value: 8
+Clock: 7213, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 7213, Process 3, Lookup: Variable 1, Value: 5
+Clock: 7213, Process 3, Store: Variable 1, Value: 10
+Clock: 7233, Process 2, Release: Variable 2
+Clock: 7255, Process 3, Lookup: Variable 1, Value: 5
+Clock: 7255, Process 3, Store: Variable 1, Value: 5
+Clock: 7279, Process 3, Store: Variable 2, Value: 3
+Clock: 7317, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 7317, Process 3, Lookup: Variable 3, Value: 7
+Clock: 7317, Process 3, Store: Variable 3, Value: 7
+Clock: 7340, Process 3, Lookup: Variable 4, Value: 6
+Clock: 7340, Process 3, Store: Variable 4, Value: 6
+Clock: 7362, Process 3, Lookup: Variable 5, Value: 2
+Clock: 7362, Process 3, Store: Variable 5, Value: 2
+Clock: 7526, Process 3, Lookup: Variable 3, Value: 7
+Clock: 7624, Process 3, Lookup: Variable 6, Value: 8
+Clock: 7624, Process 3, Store: Variable 6, Value: 8
+Clock: 7627, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 7627, Process 3, Lookup: Variable 1, Value: 5
+Clock: 7627, Process 3, Store: Variable 1, Value: 10
+Clock: 7636, Process 2, Release: Variable 2
+Clock: 7807, Process 3, Lookup: Variable 1, Value: 5
+Clock: 7807, Process 3, Store: Variable 1, Value: 5
+Clock: 7877, Process 3, Store: Variable 2, Value: 3
+Clock: 7946, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 7946, Process 3, Lookup: Variable 3, Value: 7
+Clock: 7946, Process 3, Store: Variable 3, Value: 7
+Clock: 7992, Process 3, Lookup: Variable 4, Value: 6
+Clock: 7992, Process 3, Store: Variable 4, Value: 6
+Clock: 8035, Process 3, Lookup: Variable 5, Value: 2
+Clock: 8035, Process 3, Store: Variable 5, Value: 2
+Clock: 8080, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8214, Process 3, Lookup: Variable 6, Value: 8
+Clock: 8214, Process 3, Store: Variable 6, Value: 8
+Clock: 8386, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 8386, Process 3, Lookup: Variable 1, Value: 5
+Clock: 8386, Process 3, Store: Variable 1, Value: 10
+Clock: 8510, Process 2, Release: Variable 2
+Clock: 8535, Process 3, Lookup: Variable 1, Value: 5
+Clock: 8535, Process 3, Store: Variable 1, Value: 5
+Clock: 8544, Process 3, Store: Variable 2, Value: 3
+Clock: 8593, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 8593, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8593, Process 3, Store: Variable 3, Value: 7
+Clock: 8639, Process 3, Lookup: Variable 4, Value: 6
+Clock: 8639, Process 3, Store: Variable 4, Value: 6
+Clock: 8728, Process 3, Lookup: Variable 5, Value: 2
+Clock: 8728, Process 3, Store: Variable 5, Value: 2
+Clock: 8801, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8815, Process 3, Lookup: Variable 6, Value: 8
+Clock: 8815, Process 3, Store: Variable 6, Value: 8
+Clock: 8829, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 8829, Process 3, Lookup: Variable 1, Value: 5
+Clock: 8829, Process 3, Store: Variable 1, Value: 10
+Clock: 8853, Process 2, Release: Variable 2
+Clock: 8893, Process 3, Lookup: Variable 1, Value: 5
+Clock: 8893, Process 3, Store: Variable 1, Value: 5
+Clock: 8935, Process 3, Store: Variable 2, Value: 3
+Clock: 8955, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 8955, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8955, Process 3, Store: Variable 3, Value: 7
+Clock: 8956, Process 3, Lookup: Variable 4, Value: 6
+Clock: 8956, Process 3, Store: Variable 4, Value: 6
+Clock: 8958, Process 3, Lookup: Variable 5, Value: 2
+Clock: 8958, Process 3, Store: Variable 5, Value: 2
+Clock: 8969, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8990, Process 3, Lookup: Variable 6, Value: 8
+Clock: 8990, Process 3, Store: Variable 6, Value: 8
+Clock: 9004, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9004, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9004, Process 3, Store: Variable 1, Value: 10
+Clock: 9006, Process 2, Release: Variable 2
+Clock: 9011, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9011, Process 3, Store: Variable 1, Value: 5
+Clock: 9048, Process 1: Finished.
+Clock: 9049, Process 3, Store: Variable 2, Value: 3
+Clock: 9049, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9049, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9049, Process 3, Store: Variable 3, Value: 7
+Clock: 9051, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9051, Process 3, Store: Variable 4, Value: 6
+Clock: 9051, Process 3, Lookup: Variable 5, Value: 2
+Clock: 9051, Process 3, Store: Variable 5, Value: 2
+Clock: 9051, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9051, Process 3, Lookup: Variable 6, Value: 8
+Clock: 9051, Process 3, Store: Variable 6, Value: 8
+Clock: 9053, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9053, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9053, Process 3, Store: Variable 1, Value: 10
+Clock: 9053, Process 2, Release: Variable 2
+Clock: 9053, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9053, Process 3, Store: Variable 1, Value: 5
+Clock: 9053, Process 3, Store: Variable 2, Value: 3
+Clock: 9053, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9053, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9053, Process 3, Store: Variable 3, Value: 7
+Clock: 9054, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9054, Process 3, Store: Variable 4, Value: 6
+Clock: 9054, Process 3, Lookup: Variable 5, Value: 2
+Clock: 9054, Process 3, Store: Variable 5, Value: 2
+Clock: 9054, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9054, Process 3, Lookup: Variable 6, Value: 8
+Clock: 9054, Process 3, Store: Variable 6, Value: 8
+Clock: 9057, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9057, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9057, Process 3, Store: Variable 1, Value: 10
+Clock: 9057, Process 2, Release: Variable 2
+Clock: 9057, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9057, Process 3, Store: Variable 1, Value: 5
+Clock: 9057, Process 3, Store: Variable 2, Value: 3
+Clock: 9061, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9061, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9061, Process 3, Store: Variable 3, Value: 7
+Clock: 9062, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9062, Process 3, Store: Variable 4, Value: 6
+Clock: 9064, Process 3, Lookup: Variable 5, Value: 2
+Clock: 9064, Process 3, Store: Variable 5, Value: 2
+Clock: 9068, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9068, Process 3, Lookup: Variable 6, Value: 8
+Clock: 9068, Process 3, Store: Variable 6, Value: 8
+Clock: 9070, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9070, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9070, Process 3, Store: Variable 1, Value: 10
+Clock: 9070, Process 2, Release: Variable 2
+Clock: 9070, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9070, Process 3, Store: Variable 1, Value: 5
+Clock: 9070, Process 3, Store: Variable 2, Value: 3
+Clock: 9073, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9073, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9073, Process 3, Store: Variable 3, Value: 7
+Clock: 9074, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9074, Process 3, Store: Variable 4, Value: 6
+Clock: 9074, Process 3, Lookup: Variable 5, Value: 2
+Clock: 9074, Process 3, Store: Variable 5, Value: 2
+Clock: 9076, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9076, Process 3, Lookup: Variable 6, Value: 8
+Clock: 9076, Process 3, Store: Variable 6, Value: 8
+Clock: 9076, Process 3, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9076, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9076, Process 3, Store: Variable 1, Value: 10
+Clock: 9076, Process 2, Release: Variable 2
+Clock: 9079, Process 3, Lookup: Variable 1, Value: 5
+Clock: 9079, Process 3, Store: Variable 1, Value: 5
+Clock: 9079, Process 3, Store: Variable 2, Value: 3
+Clock: 9079, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9079, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9079, Process 3, Store: Variable 3, Value: 7
+Clock: 9080, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9080, Process 3, Store: Variable 4, Value: 6
+Clock: 9086, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9086, Process 4, Store: Variable 5, Value: 2
+Clock: 9160, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9343, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9343, Process 4, Store: Variable 6, Value: 8
+Clock: 9505, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9505, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9505, Process 4, Store: Variable 1, Value: 10
+Clock: 9559, Process 2, Release: Variable 2
+Clock: 9699, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9699, Process 4, Store: Variable 1, Value: 5
+Clock: 9814, Process 3, Store: Variable 2, Value: 3
+Clock: 9814, Process 3, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9814, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9814, Process 3, Store: Variable 3, Value: 7
+Clock: 9816, Process 3, Lookup: Variable 4, Value: 6
+Clock: 9816, Process 3, Store: Variable 4, Value: 6
+Clock: 9818, Process 3, Lookup: Variable 5, Value: 2
+Clock: 9818, Process 3, Store: Variable 5, Value: 2
+Clock: 9818, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9818, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9818, Process 4, Store: Variable 6, Value: 8
+Clock: 9820, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9820, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9820, Process 4, Store: Variable 1, Value: 10
+Clock: 9820, Process 2, Release: Variable 2
+Clock: 9820, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9820, Process 4, Store: Variable 1, Value: 5
+Clock: 9823, Process 4, Store: Variable 2, Value: 3
+Clock: 9824, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9824, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9824, Process 4, Store: Variable 3, Value: 7
+Clock: 9826, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9826, Process 4, Store: Variable 4, Value: 6
+Clock: 9826, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9826, Process 4, Store: Variable 5, Value: 2
+Clock: 9826, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9830, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9830, Process 4, Store: Variable 6, Value: 8
+Clock: 9834, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9834, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9834, Process 4, Store: Variable 1, Value: 10
+Clock: 9837, Process 2, Release: Variable 2
+Clock: 9837, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9837, Process 4, Store: Variable 1, Value: 5
+Clock: 9837, Process 4, Store: Variable 2, Value: 3
+Clock: 9839, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9839, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9839, Process 4, Store: Variable 3, Value: 7
+Clock: 9839, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9839, Process 4, Store: Variable 4, Value: 6
+Clock: 9839, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9839, Process 4, Store: Variable 5, Value: 2
+Clock: 9840, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9840, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9840, Process 4, Store: Variable 6, Value: 8
+Clock: 9840, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9840, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9840, Process 4, Store: Variable 1, Value: 10
+Clock: 9840, Process 2, Release: Variable 2
+Clock: 9842, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9842, Process 4, Store: Variable 1, Value: 5
+Clock: 9842, Process 4, Store: Variable 2, Value: 3
+Clock: 9842, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9842, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9842, Process 4, Store: Variable 3, Value: 7
+Clock: 9845, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9845, Process 4, Store: Variable 4, Value: 6
+Clock: 9845, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9845, Process 4, Store: Variable 5, Value: 2
+Clock: 9845, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9845, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9845, Process 4, Store: Variable 6, Value: 8
+Clock: 9848, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9848, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9848, Process 4, Store: Variable 1, Value: 10
+Clock: 9848, Process 2, Release: Variable 2
+Clock: 9848, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9848, Process 4, Store: Variable 1, Value: 5
+Clock: 9852, Process 4, Store: Variable 2, Value: 3
+Clock: 9852, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9852, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9852, Process 4, Store: Variable 3, Value: 7
+Clock: 9854, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9854, Process 4, Store: Variable 4, Value: 6
+Clock: 9854, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9854, Process 4, Store: Variable 5, Value: 2
+Clock: 9854, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9855, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9855, Process 4, Store: Variable 6, Value: 8
+Clock: 9855, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9855, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9855, Process 4, Store: Variable 1, Value: 10
+Clock: 9855, Process 2, Release: Variable 2
+Clock: 9855, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9855, Process 4, Store: Variable 1, Value: 5
+Clock: 9858, Process 4, Store: Variable 2, Value: 3
+Clock: 9859, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9859, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9859, Process 4, Store: Variable 3, Value: 7
+Clock: 9859, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9859, Process 4, Store: Variable 4, Value: 6
+Clock: 9860, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9860, Process 4, Store: Variable 5, Value: 2
+Clock: 9863, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9868, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9868, Process 4, Store: Variable 6, Value: 8
+Clock: 9871, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9871, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9871, Process 4, Store: Variable 1, Value: 10
+Clock: 9871, Process 2, Release: Variable 2
+Clock: 9871, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9871, Process 4, Store: Variable 1, Value: 5
+Clock: 9874, Process 4, Store: Variable 2, Value: 3
+Clock: 9876, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9876, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9876, Process 4, Store: Variable 3, Value: 7
+Clock: 9878, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9878, Process 4, Store: Variable 4, Value: 6
+Clock: 9878, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9878, Process 4, Store: Variable 5, Value: 2
+Clock: 9878, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9880, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9880, Process 4, Store: Variable 6, Value: 8
+Clock: 9880, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9880, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9880, Process 4, Store: Variable 1, Value: 10
+Clock: 9882, Process 2, Release: Variable 2
+Clock: 9882, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9882, Process 4, Store: Variable 1, Value: 5
+Clock: 9882, Process 4, Store: Variable 2, Value: 3
+Clock: 9883, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9883, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9883, Process 4, Store: Variable 3, Value: 7
+Clock: 9883, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9883, Process 4, Store: Variable 4, Value: 6
+Clock: 9884, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9884, Process 4, Store: Variable 5, Value: 2
+Clock: 9884, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9884, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9884, Process 4, Store: Variable 6, Value: 8
+Clock: 9884, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9884, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9884, Process 4, Store: Variable 1, Value: 10
+Clock: 9887, Process 2, Release: Variable 2
+Clock: 9888, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9888, Process 4, Store: Variable 1, Value: 5
+Clock: 9888, Process 4, Store: Variable 2, Value: 3
+Clock: 9888, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9888, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9888, Process 4, Store: Variable 3, Value: 7
+Clock: 9889, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9889, Process 4, Store: Variable 4, Value: 6
+Clock: 9889, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9889, Process 4, Store: Variable 5, Value: 2
+Clock: 9890, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9898, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9898, Process 4, Store: Variable 6, Value: 8
+Clock: 9900, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9900, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9900, Process 4, Store: Variable 1, Value: 10
+Clock: 9904, Process 2, Release: Variable 2
+Clock: 9905, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9905, Process 4, Store: Variable 1, Value: 5
+Clock: 9907, Process 4, Store: Variable 2, Value: 3
+Clock: 9907, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9907, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9907, Process 4, Store: Variable 3, Value: 7
+Clock: 9907, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9907, Process 4, Store: Variable 4, Value: 6
+Clock: 9911, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9911, Process 4, Store: Variable 5, Value: 2
+Clock: 9911, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9911, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9911, Process 4, Store: Variable 6, Value: 8
+Clock: 9913, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9913, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9913, Process 4, Store: Variable 1, Value: 10
+Clock: 9914, Process 2, Release: Variable 2
+Clock: 9914, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9914, Process 4, Store: Variable 1, Value: 5
+Clock: 9916, Process 4, Store: Variable 2, Value: 3
+Clock: 9916, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9916, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9916, Process 4, Store: Variable 3, Value: 7
+Clock: 9916, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9916, Process 4, Store: Variable 4, Value: 6
+Clock: 9916, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9916, Process 4, Store: Variable 5, Value: 2
+Clock: 9920, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9920, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9920, Process 4, Store: Variable 6, Value: 8
+Clock: 9920, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9920, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9920, Process 4, Store: Variable 1, Value: 10
+Clock: 9920, Process 2, Release: Variable 2
+Clock: 9921, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9921, Process 4, Store: Variable 1, Value: 5
+Clock: 9921, Process 4, Store: Variable 2, Value: 3
+Clock: 9921, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9921, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9921, Process 4, Store: Variable 3, Value: 7
+Clock: 9926, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9926, Process 4, Store: Variable 4, Value: 6
+Clock: 9928, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9928, Process 4, Store: Variable 5, Value: 2
+Clock: 9931, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9931, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9931, Process 4, Store: Variable 6, Value: 8
+Clock: 9931, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9931, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9931, Process 4, Store: Variable 1, Value: 10
+Clock: 9931, Process 2, Release: Variable 2
+Clock: 9932, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9932, Process 4, Store: Variable 1, Value: 5
+Clock: 9932, Process 4, Store: Variable 2, Value: 3
+Clock: 9932, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9932, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9932, Process 4, Store: Variable 3, Value: 7
+Clock: 9935, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9935, Process 4, Store: Variable 4, Value: 6
+Clock: 9937, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9937, Process 4, Store: Variable 5, Value: 2
+Clock: 9937, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9937, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9937, Process 4, Store: Variable 6, Value: 8
+Clock: 9941, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9941, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9941, Process 4, Store: Variable 1, Value: 10
+Clock: 9942, Process 2, Release: Variable 2
+Clock: 9946, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9946, Process 4, Store: Variable 1, Value: 5
+Clock: 9949, Process 4, Store: Variable 2, Value: 3
+Clock: 9949, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9949, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9949, Process 4, Store: Variable 3, Value: 7
+Clock: 9952, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9952, Process 4, Store: Variable 4, Value: 6
+Clock: 9955, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9955, Process 4, Store: Variable 5, Value: 2
+Clock: 9955, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9958, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9958, Process 4, Store: Variable 6, Value: 8
+Clock: 9959, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9959, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9959, Process 4, Store: Variable 1, Value: 10
+Clock: 9960, Process 2, Release: Variable 2
+Clock: 9961, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9961, Process 4, Store: Variable 1, Value: 5
+Clock: 9965, Process 4, Store: Variable 2, Value: 3
+Clock: 9971, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9971, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9971, Process 4, Store: Variable 3, Value: 7
+Clock: 9972, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9972, Process 4, Store: Variable 4, Value: 6
+Clock: 9972, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9972, Process 4, Store: Variable 5, Value: 2
+Clock: 9972, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9972, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9972, Process 4, Store: Variable 6, Value: 8
+Clock: 9976, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9976, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9976, Process 4, Store: Variable 1, Value: 10
+Clock: 9977, Process 2, Release: Variable 2
+Clock: 9977, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9977, Process 4, Store: Variable 1, Value: 5
+Clock: 9980, Process 4, Store: Variable 2, Value: 3
+Clock: 9980, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9980, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9980, Process 4, Store: Variable 3, Value: 7
+Clock: 9980, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9980, Process 4, Store: Variable 4, Value: 6
+Clock: 9983, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9983, Process 4, Store: Variable 5, Value: 2
+Clock: 9983, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9983, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9983, Process 4, Store: Variable 6, Value: 8
+Clock: 9983, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9983, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9983, Process 4, Store: Variable 1, Value: 10
+Clock: 9984, Process 2, Release: Variable 2
+Clock: 9984, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9984, Process 4, Store: Variable 1, Value: 5
+Clock: 9985, Process 4, Store: Variable 2, Value: 3
+Clock: 9985, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9985, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9985, Process 4, Store: Variable 3, Value: 7
+Clock: 9985, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9985, Process 4, Store: Variable 4, Value: 6
+Clock: 9987, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9987, Process 4, Store: Variable 5, Value: 2
+Clock: 9987, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9987, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9987, Process 4, Store: Variable 6, Value: 8
+Clock: 9987, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9987, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9987, Process 4, Store: Variable 1, Value: 10
+Clock: 9989, Process 2, Release: Variable 2
+Clock: 9989, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9989, Process 4, Store: Variable 1, Value: 5
+Clock: 9989, Process 4, Store: Variable 2, Value: 3
+Clock: 9990, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9990, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9990, Process 4, Store: Variable 3, Value: 7
+Clock: 9990, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9990, Process 4, Store: Variable 4, Value: 6
+Clock: 9992, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9992, Process 4, Store: Variable 5, Value: 2
+Clock: 9992, Process 3, Lookup: Variable 3, Value: 7
+Clock: 9992, Process 4, Lookup: Variable 6, Value: 8
+Clock: 9992, Process 4, Store: Variable 6, Value: 8
+Clock: 9995, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 9995, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9995, Process 4, Store: Variable 1, Value: 10
+Clock: 9996, Process 2, Release: Variable 2
+Clock: 9997, Process 4, Lookup: Variable 1, Value: 5
+Clock: 9997, Process 4, Store: Variable 1, Value: 5
+Clock: 9997, Process 4, Store: Variable 2, Value: 3
+Clock: 9997, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 9997, Process 4, Lookup: Variable 3, Value: 7
+Clock: 9997, Process 4, Store: Variable 3, Value: 7
+Clock: 9997, Process 4, Lookup: Variable 4, Value: 6
+Clock: 9997, Process 4, Store: Variable 4, Value: 6
+Clock: 9999, Process 4, Lookup: Variable 5, Value: 2
+Clock: 9999, Process 4, Store: Variable 5, Value: 2
+Clock: 10000, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10001, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10001, Process 4, Store: Variable 6, Value: 8
+Clock: 10001, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10001, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10001, Process 4, Store: Variable 1, Value: 10
+Clock: 10001, Process 2, Release: Variable 2
+Clock: 10005, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10005, Process 4, Store: Variable 1, Value: 5
+Clock: 10009, Process 4, Store: Variable 2, Value: 3
+Clock: 10011, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10011, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10011, Process 4, Store: Variable 3, Value: 7
+Clock: 10011, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10011, Process 4, Store: Variable 4, Value: 6
+Clock: 10011, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10011, Process 4, Store: Variable 5, Value: 2
+Clock: 10013, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10013, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10013, Process 4, Store: Variable 6, Value: 8
+Clock: 10014, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10014, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10014, Process 4, Store: Variable 1, Value: 10
+Clock: 10014, Process 2, Release: Variable 2
+Clock: 10014, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10014, Process 4, Store: Variable 1, Value: 5
+Clock: 10014, Process 4, Store: Variable 2, Value: 3
+Clock: 10015, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10015, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10015, Process 4, Store: Variable 3, Value: 7
+Clock: 10015, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10015, Process 4, Store: Variable 4, Value: 6
+Clock: 10015, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10015, Process 4, Store: Variable 5, Value: 2
+Clock: 10018, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10023, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10023, Process 4, Store: Variable 6, Value: 8
+Clock: 10025, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10025, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10025, Process 4, Store: Variable 1, Value: 10
+Clock: 10025, Process 2, Release: Variable 2
+Clock: 10025, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10025, Process 4, Store: Variable 1, Value: 5
+Clock: 10028, Process 4, Store: Variable 2, Value: 3
+Clock: 10028, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10028, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10028, Process 4, Store: Variable 3, Value: 7
+Clock: 10031, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10031, Process 4, Store: Variable 4, Value: 6
+Clock: 10039, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10039, Process 4, Store: Variable 5, Value: 2
+Clock: 10053, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10061, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10061, Process 4, Store: Variable 6, Value: 8
+Clock: 10075, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10075, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10075, Process 4, Store: Variable 1, Value: 10
+Clock: 10076, Process 2, Release: Variable 2
+Clock: 10077, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10077, Process 4, Store: Variable 1, Value: 5
+Clock: 10077, Process 4, Store: Variable 2, Value: 3
+Clock: 10077, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10077, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10077, Process 4, Store: Variable 3, Value: 7
+Clock: 10078, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10078, Process 4, Store: Variable 4, Value: 6
+Clock: 10078, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10078, Process 4, Store: Variable 5, Value: 2
+Clock: 10078, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10082, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10082, Process 4, Store: Variable 6, Value: 8
+Clock: 10083, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10083, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10083, Process 4, Store: Variable 1, Value: 10
+Clock: 10083, Process 2, Release: Variable 2
+Clock: 10083, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10083, Process 4, Store: Variable 1, Value: 5
+Clock: 10084, Process 4, Store: Variable 2, Value: 3
+Clock: 10085, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10085, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10085, Process 4, Store: Variable 3, Value: 7
+Clock: 10086, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10086, Process 4, Store: Variable 4, Value: 6
+Clock: 10086, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10086, Process 4, Store: Variable 5, Value: 2
+Clock: 10086, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10089, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10089, Process 4, Store: Variable 6, Value: 8
+Clock: 10095, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10095, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10095, Process 4, Store: Variable 1, Value: 10
+Clock: 10099, Process 2: Finished.
+Clock: 10099, Process 2, Release: Variable 2
+Clock: 10099, Process 3, Lookup: Variable 1, Value: 5
+Clock: 10099, Process 3, Store: Variable 1, Value: 5
+Clock: 10099, Process 3, Store: Variable 2, Value: 3
+Clock: 10102, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10102, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10102, Process 4, Store: Variable 3, Value: 7
+Clock: 10103, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10103, Process 4, Store: Variable 4, Value: 6
+Clock: 10103, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10103, Process 4, Store: Variable 5, Value: 2
+Clock: 10103, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10103, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10103, Process 4, Store: Variable 6, Value: 8
+Clock: 10103, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10103, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10103, Process 4, Store: Variable 1, Value: 10
+Clock: 10103, Process 2, Release: Variable 2
+Clock: 10103, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10103, Process 4, Store: Variable 1, Value: 5
+Clock: 10103, Process 4, Store: Variable 2, Value: 3
+Clock: 10103, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10103, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10103, Process 4, Store: Variable 3, Value: 7
+Clock: 10103, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10103, Process 4, Store: Variable 4, Value: 6
+Clock: 10103, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10103, Process 4, Store: Variable 5, Value: 2
+Clock: 10103, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10103, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10103, Process 4, Store: Variable 6, Value: 8
+Clock: 10103, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10103, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10103, Process 4, Store: Variable 1, Value: 10
+Clock: 10104, Process 2, Release: Variable 2
+Clock: 10104, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10104, Process 4, Store: Variable 1, Value: 5
+Clock: 10104, Process 4, Store: Variable 2, Value: 3
+Clock: 10104, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10104, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10104, Process 4, Store: Variable 3, Value: 7
+Clock: 10104, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10104, Process 4, Store: Variable 4, Value: 6
+Clock: 10104, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10104, Process 4, Store: Variable 5, Value: 2
+Clock: 10104, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10104, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10104, Process 4, Store: Variable 6, Value: 8
+Clock: 10105, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10105, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10105, Process 4, Store: Variable 1, Value: 10
+Clock: 10105, Process 2, Release: Variable 2
+Clock: 10105, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10105, Process 4, Store: Variable 1, Value: 5
+Clock: 10105, Process 4, Store: Variable 2, Value: 3
+Clock: 10106, Process 4, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10106, Process 4, Lookup: Variable 3, Value: 7
+Clock: 10106, Process 4, Store: Variable 3, Value: 7
+Clock: 10106, Process 4, Lookup: Variable 4, Value: 6
+Clock: 10106, Process 4, Store: Variable 4, Value: 6
+Clock: 10106, Process 4, Lookup: Variable 5, Value: 2
+Clock: 10106, Process 4, Store: Variable 5, Value: 2
+Clock: 10106, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10106, Process 4, Lookup: Variable 6, Value: 8
+Clock: 10106, Process 4, Store: Variable 6, Value: 8
+Clock: 10106, Process 4, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 10106, Process 4, Lookup: Variable 1, Value: 5
+Clock: 10106, Process 4, Store: Variable 1, Value: 10
+Clock: 10107, Process 2, Release: Variable 2
+Clock: 10325, Process 5, Lookup: Variable 1, Value: 5
+Clock: 10325, Process 5, Store: Variable 1, Value: 5
+Clock: 10454, Process 5, Store: Variable 2, Value: 3
+Clock: 10691, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 10691, Process 5, Lookup: Variable 3, Value: 7
+Clock: 10691, Process 5, Store: Variable 3, Value: 7
+Clock: 10744, Process 5, Lookup: Variable 4, Value: 6
+Clock: 10744, Process 5, Store: Variable 4, Value: 6
+Clock: 10764, Process 5, Lookup: Variable 5, Value: 2
+Clock: 10764, Process 5, Store: Variable 5, Value: 2
+Clock: 10967, Process 3: Finished.
+Clock: 10969, Process 3, Lookup: Variable 3, Value: 7
+Clock: 10990, Process 5, Lookup: Variable 6, Value: 8
+Clock: 10990, Process 5, Store: Variable 6, Value: 8
+Clock: 11014, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 11014, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11014, Process 5, Store: Variable 1, Value: 10
+Clock: 11107, Process 2, Release: Variable 2
+Clock: 11327, Process 4: Finished.
+Clock: 11328, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11328, Process 5, Store: Variable 1, Value: 5
+Clock: 11407, Process 5, Store: Variable 2, Value: 3
+Clock: 11450, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 11450, Process 5, Lookup: Variable 3, Value: 7
+Clock: 11450, Process 5, Store: Variable 3, Value: 7
+Clock: 11508, Process 5, Lookup: Variable 4, Value: 6
+Clock: 11508, Process 5, Store: Variable 4, Value: 6
+Clock: 11522, Process 5, Lookup: Variable 5, Value: 2
+Clock: 11522, Process 5, Store: Variable 5, Value: 2
+Clock: 11525, Process 3, Lookup: Variable 3, Value: 7
+Clock: 11607, Process 5, Lookup: Variable 6, Value: 8
+Clock: 11607, Process 5, Store: Variable 6, Value: 8
+Clock: 11640, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 11640, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11640, Process 5, Store: Variable 1, Value: 10
+Clock: 11662, Process 2, Release: Variable 2
+Clock: 11690, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11690, Process 5, Store: Variable 1, Value: 5
+Clock: 11695, Process 5, Store: Variable 2, Value: 3
+Clock: 11711, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 11711, Process 5, Lookup: Variable 3, Value: 7
+Clock: 11711, Process 5, Store: Variable 3, Value: 7
+Clock: 11759, Process 5, Lookup: Variable 4, Value: 6
+Clock: 11759, Process 5, Store: Variable 4, Value: 6
+Clock: 11806, Process 5, Lookup: Variable 5, Value: 2
+Clock: 11806, Process 5, Store: Variable 5, Value: 2
+Clock: 11876, Process 3, Lookup: Variable 3, Value: 7
+Clock: 11890, Process 5, Lookup: Variable 6, Value: 8
+Clock: 11890, Process 5, Store: Variable 6, Value: 8
+Clock: 11902, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 11902, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11902, Process 5, Store: Variable 1, Value: 10
+Clock: 11906, Process 2, Release: Variable 2
+Clock: 11926, Process 5, Lookup: Variable 1, Value: 5
+Clock: 11926, Process 5, Store: Variable 1, Value: 5
+Clock: 12011, Process 5, Store: Variable 2, Value: 3
+Clock: 12051, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12051, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12051, Process 5, Store: Variable 3, Value: 7
+Clock: 12053, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12053, Process 5, Store: Variable 4, Value: 6
+Clock: 12072, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12072, Process 5, Store: Variable 5, Value: 2
+Clock: 12078, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12106, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12106, Process 5, Store: Variable 6, Value: 8
+Clock: 12135, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12135, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12135, Process 5, Store: Variable 1, Value: 10
+Clock: 12187, Process 2, Release: Variable 2
+Clock: 12210, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12210, Process 5, Store: Variable 1, Value: 5
+Clock: 12247, Process 5, Store: Variable 2, Value: 3
+Clock: 12260, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12260, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12260, Process 5, Store: Variable 3, Value: 7
+Clock: 12302, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12302, Process 5, Store: Variable 4, Value: 6
+Clock: 12360, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12360, Process 5, Store: Variable 5, Value: 2
+Clock: 12391, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12417, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12417, Process 5, Store: Variable 6, Value: 8
+Clock: 12420, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12420, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12420, Process 5, Store: Variable 1, Value: 10
+Clock: 12422, Process 2, Release: Variable 2
+Clock: 12423, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12423, Process 5, Store: Variable 1, Value: 5
+Clock: 12423, Process 5, Store: Variable 2, Value: 3
+Clock: 12423, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12423, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12423, Process 5, Store: Variable 3, Value: 7
+Clock: 12423, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12423, Process 5, Store: Variable 4, Value: 6
+Clock: 12423, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12423, Process 5, Store: Variable 5, Value: 2
+Clock: 12423, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12423, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12423, Process 5, Store: Variable 6, Value: 8
+Clock: 12423, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12423, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12423, Process 5, Store: Variable 1, Value: 10
+Clock: 12423, Process 2, Release: Variable 2
+Clock: 12423, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12423, Process 5, Store: Variable 1, Value: 5
+Clock: 12424, Process 5, Store: Variable 2, Value: 3
+Clock: 12424, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12424, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12424, Process 5, Store: Variable 3, Value: 7
+Clock: 12424, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12424, Process 5, Store: Variable 4, Value: 6
+Clock: 12425, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12425, Process 5, Store: Variable 5, Value: 2
+Clock: 12426, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12426, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12426, Process 5, Store: Variable 6, Value: 8
+Clock: 12427, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12427, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12427, Process 5, Store: Variable 1, Value: 10
+Clock: 12427, Process 2, Release: Variable 2
+Clock: 12427, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12427, Process 5, Store: Variable 1, Value: 5
+Clock: 12428, Process 5, Store: Variable 2, Value: 3
+Clock: 12428, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12428, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12428, Process 5, Store: Variable 3, Value: 7
+Clock: 12428, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12428, Process 5, Store: Variable 4, Value: 6
+Clock: 12428, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12428, Process 5, Store: Variable 5, Value: 2
+Clock: 12428, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12429, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12429, Process 5, Store: Variable 6, Value: 8
+Clock: 12429, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12429, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12429, Process 5, Store: Variable 1, Value: 10
+Clock: 12429, Process 2, Release: Variable 2
+Clock: 12429, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12429, Process 5, Store: Variable 1, Value: 5
+Clock: 12431, Process 5, Store: Variable 2, Value: 3
+Clock: 12431, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12431, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12431, Process 5, Store: Variable 3, Value: 7
+Clock: 12431, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12431, Process 5, Store: Variable 4, Value: 6
+Clock: 12431, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12431, Process 5, Store: Variable 5, Value: 2
+Clock: 12431, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12431, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12431, Process 5, Store: Variable 6, Value: 8
+Clock: 12433, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12433, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12433, Process 5, Store: Variable 1, Value: 10
+Clock: 12434, Process 2, Release: Variable 2
+Clock: 12435, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12435, Process 5, Store: Variable 1, Value: 5
+Clock: 12435, Process 5, Store: Variable 2, Value: 3
+Clock: 12435, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12435, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12435, Process 5, Store: Variable 3, Value: 7
+Clock: 12436, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12436, Process 5, Store: Variable 4, Value: 6
+Clock: 12436, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12436, Process 5, Store: Variable 5, Value: 2
+Clock: 12437, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12438, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12438, Process 5, Store: Variable 6, Value: 8
+Clock: 12439, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12439, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12439, Process 5, Store: Variable 1, Value: 10
+Clock: 12440, Process 2, Release: Variable 2
+Clock: 12441, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12441, Process 5, Store: Variable 1, Value: 5
+Clock: 12441, Process 5, Store: Variable 2, Value: 3
+Clock: 12441, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12441, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12441, Process 5, Store: Variable 3, Value: 7
+Clock: 12441, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12441, Process 5, Store: Variable 4, Value: 6
+Clock: 12442, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12442, Process 5, Store: Variable 5, Value: 2
+Clock: 12442, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12442, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12442, Process 5, Store: Variable 6, Value: 8
+Clock: 12442, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12442, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12442, Process 5, Store: Variable 1, Value: 10
+Clock: 12442, Process 2, Release: Variable 2
+Clock: 12443, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12443, Process 5, Store: Variable 1, Value: 5
+Clock: 12443, Process 5, Store: Variable 2, Value: 3
+Clock: 12444, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12444, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12444, Process 5, Store: Variable 3, Value: 7
+Clock: 12444, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12444, Process 5, Store: Variable 4, Value: 6
+Clock: 12444, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12444, Process 5, Store: Variable 5, Value: 2
+Clock: 12444, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12444, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12444, Process 5, Store: Variable 6, Value: 8
+Clock: 12445, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12445, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12445, Process 5, Store: Variable 1, Value: 10
+Clock: 12445, Process 2, Release: Variable 2
+Clock: 12445, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12445, Process 5, Store: Variable 1, Value: 5
+Clock: 12445, Process 5, Store: Variable 2, Value: 3
+Clock: 12446, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12446, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12446, Process 5, Store: Variable 3, Value: 7
+Clock: 12447, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12447, Process 5, Store: Variable 4, Value: 6
+Clock: 12447, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12447, Process 5, Store: Variable 5, Value: 2
+Clock: 12448, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12449, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12449, Process 5, Store: Variable 6, Value: 8
+Clock: 12450, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12450, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12450, Process 5, Store: Variable 1, Value: 10
+Clock: 12451, Process 2, Release: Variable 2
+Clock: 12454, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12454, Process 5, Store: Variable 1, Value: 5
+Clock: 12455, Process 5, Store: Variable 2, Value: 3
+Clock: 12457, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12457, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12457, Process 5, Store: Variable 3, Value: 7
+Clock: 12457, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12457, Process 5, Store: Variable 4, Value: 6
+Clock: 12458, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12458, Process 5, Store: Variable 5, Value: 2
+Clock: 12458, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12458, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12458, Process 5, Store: Variable 6, Value: 8
+Clock: 12458, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12458, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12458, Process 5, Store: Variable 1, Value: 10
+Clock: 12459, Process 2, Release: Variable 2
+Clock: 12459, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12459, Process 5, Store: Variable 1, Value: 5
+Clock: 12459, Process 5, Store: Variable 2, Value: 3
+Clock: 12460, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12460, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12460, Process 5, Store: Variable 3, Value: 7
+Clock: 12461, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12461, Process 5, Store: Variable 4, Value: 6
+Clock: 12461, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12461, Process 5, Store: Variable 5, Value: 2
+Clock: 12461, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12461, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12461, Process 5, Store: Variable 6, Value: 8
+Clock: 12462, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12462, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12462, Process 5, Store: Variable 1, Value: 10
+Clock: 12462, Process 2, Release: Variable 2
+Clock: 12463, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12463, Process 5, Store: Variable 1, Value: 5
+Clock: 12463, Process 5, Store: Variable 2, Value: 3
+Clock: 12464, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12464, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12464, Process 5, Store: Variable 3, Value: 7
+Clock: 12465, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12465, Process 5, Store: Variable 4, Value: 6
+Clock: 12465, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12465, Process 5, Store: Variable 5, Value: 2
+Clock: 12465, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12465, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12465, Process 5, Store: Variable 6, Value: 8
+Clock: 12465, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12465, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12465, Process 5, Store: Variable 1, Value: 10
+Clock: 12465, Process 2, Release: Variable 2
+Clock: 12467, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12467, Process 5, Store: Variable 1, Value: 5
+Clock: 12467, Process 5, Store: Variable 2, Value: 3
+Clock: 12467, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12467, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12467, Process 5, Store: Variable 3, Value: 7
+Clock: 12470, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12470, Process 5, Store: Variable 4, Value: 6
+Clock: 12470, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12470, Process 5, Store: Variable 5, Value: 2
+Clock: 12470, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12471, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12471, Process 5, Store: Variable 6, Value: 8
+Clock: 12471, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12471, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12471, Process 5, Store: Variable 1, Value: 10
+Clock: 12471, Process 2, Release: Variable 2
+Clock: 12471, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12471, Process 5, Store: Variable 1, Value: 5
+Clock: 12471, Process 5, Store: Variable 2, Value: 3
+Clock: 12472, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12472, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12472, Process 5, Store: Variable 3, Value: 7
+Clock: 12472, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12472, Process 5, Store: Variable 4, Value: 6
+Clock: 12473, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12473, Process 5, Store: Variable 5, Value: 2
+Clock: 12474, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12474, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12474, Process 5, Store: Variable 6, Value: 8
+Clock: 12474, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12474, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12474, Process 5, Store: Variable 1, Value: 10
+Clock: 12474, Process 2, Release: Variable 2
+Clock: 12474, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12474, Process 5, Store: Variable 1, Value: 5
+Clock: 12474, Process 5, Store: Variable 2, Value: 3
+Clock: 12475, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12475, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12475, Process 5, Store: Variable 3, Value: 7
+Clock: 12476, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12476, Process 5, Store: Variable 4, Value: 6
+Clock: 12477, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12477, Process 5, Store: Variable 5, Value: 2
+Clock: 12477, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12477, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12477, Process 5, Store: Variable 6, Value: 8
+Clock: 12477, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12477, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12477, Process 5, Store: Variable 1, Value: 10
+Clock: 12477, Process 2, Release: Variable 2
+Clock: 12477, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12477, Process 5, Store: Variable 1, Value: 5
+Clock: 12477, Process 5, Store: Variable 2, Value: 3
+Clock: 12478, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12478, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12478, Process 5, Store: Variable 3, Value: 7
+Clock: 12478, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12478, Process 5, Store: Variable 4, Value: 6
+Clock: 12479, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12479, Process 5, Store: Variable 5, Value: 2
+Clock: 12479, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12479, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12479, Process 5, Store: Variable 6, Value: 8
+Clock: 12479, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12479, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12479, Process 5, Store: Variable 1, Value: 10
+Clock: 12479, Process 2, Release: Variable 2
+Clock: 12479, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12479, Process 5, Store: Variable 1, Value: 5
+Clock: 12480, Process 5, Store: Variable 2, Value: 3
+Clock: 12482, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12482, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12482, Process 5, Store: Variable 3, Value: 7
+Clock: 12482, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12482, Process 5, Store: Variable 4, Value: 6
+Clock: 12482, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12482, Process 5, Store: Variable 5, Value: 2
+Clock: 12482, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12482, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12482, Process 5, Store: Variable 6, Value: 8
+Clock: 12482, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12482, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12482, Process 5, Store: Variable 1, Value: 10
+Clock: 12482, Process 2, Release: Variable 2
+Clock: 12483, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12483, Process 5, Store: Variable 1, Value: 5
+Clock: 12483, Process 5, Store: Variable 2, Value: 3
+Clock: 12483, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12483, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12483, Process 5, Store: Variable 3, Value: 7
+Clock: 12483, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12483, Process 5, Store: Variable 4, Value: 6
+Clock: 12483, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12483, Process 5, Store: Variable 5, Value: 2
+Clock: 12484, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12485, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12485, Process 5, Store: Variable 6, Value: 8
+Clock: 12485, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12485, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12485, Process 5, Store: Variable 1, Value: 10
+Clock: 12485, Process 2, Release: Variable 2
+Clock: 12485, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12485, Process 5, Store: Variable 1, Value: 5
+Clock: 12485, Process 5, Store: Variable 2, Value: 3
+Clock: 12485, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12485, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12485, Process 5, Store: Variable 3, Value: 7
+Clock: 12486, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12486, Process 5, Store: Variable 4, Value: 6
+Clock: 12486, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12486, Process 5, Store: Variable 5, Value: 2
+Clock: 12486, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12489, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12489, Process 5, Store: Variable 6, Value: 8
+Clock: 12489, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12489, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12489, Process 5, Store: Variable 1, Value: 10
+Clock: 12489, Process 2, Release: Variable 2
+Clock: 12489, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12489, Process 5, Store: Variable 1, Value: 5
+Clock: 12489, Process 5, Store: Variable 2, Value: 3
+Clock: 12489, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12489, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12489, Process 5, Store: Variable 3, Value: 7
+Clock: 12489, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12489, Process 5, Store: Variable 4, Value: 6
+Clock: 12490, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12490, Process 5, Store: Variable 5, Value: 2
+Clock: 12490, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12491, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12491, Process 5, Store: Variable 6, Value: 8
+Clock: 12491, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12491, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12491, Process 5, Store: Variable 1, Value: 10
+Clock: 12492, Process 2, Release: Variable 2
+Clock: 12493, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12493, Process 5, Store: Variable 1, Value: 5
+Clock: 12493, Process 5, Store: Variable 2, Value: 3
+Clock: 12495, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12495, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12495, Process 5, Store: Variable 3, Value: 7
+Clock: 12499, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12499, Process 5, Store: Variable 4, Value: 6
+Clock: 12499, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12499, Process 5, Store: Variable 5, Value: 2
+Clock: 12500, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12502, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12502, Process 5, Store: Variable 6, Value: 8
+Clock: 12504, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12504, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12504, Process 5, Store: Variable 1, Value: 10
+Clock: 12505, Process 2, Release: Variable 2
+Clock: 12505, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12505, Process 5, Store: Variable 1, Value: 5
+Clock: 12505, Process 5, Store: Variable 2, Value: 3
+Clock: 12505, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12505, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12505, Process 5, Store: Variable 3, Value: 7
+Clock: 12509, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12509, Process 5, Store: Variable 4, Value: 6
+Clock: 12509, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12509, Process 5, Store: Variable 5, Value: 2
+Clock: 12509, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12509, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12509, Process 5, Store: Variable 6, Value: 8
+Clock: 12509, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12509, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12509, Process 5, Store: Variable 1, Value: 10
+Clock: 12511, Process 2, Release: Variable 2
+Clock: 12512, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12512, Process 5, Store: Variable 1, Value: 5
+Clock: 12512, Process 5, Store: Variable 2, Value: 3
+Clock: 12512, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12512, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12512, Process 5, Store: Variable 3, Value: 7
+Clock: 12513, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12513, Process 5, Store: Variable 4, Value: 6
+Clock: 12513, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12513, Process 5, Store: Variable 5, Value: 2
+Clock: 12514, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12514, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12514, Process 5, Store: Variable 6, Value: 8
+Clock: 12514, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12514, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12514, Process 5, Store: Variable 1, Value: 10
+Clock: 12518, Process 2, Release: Variable 2
+Clock: 12519, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12519, Process 5, Store: Variable 1, Value: 5
+Clock: 12519, Process 5, Store: Variable 2, Value: 3
+Clock: 12520, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12520, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12520, Process 5, Store: Variable 3, Value: 7
+Clock: 12524, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12524, Process 5, Store: Variable 4, Value: 6
+Clock: 12527, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12527, Process 5, Store: Variable 5, Value: 2
+Clock: 12529, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12532, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12532, Process 5, Store: Variable 6, Value: 8
+Clock: 12535, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12535, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12535, Process 5, Store: Variable 1, Value: 10
+Clock: 12537, Process 2, Release: Variable 2
+Clock: 12539, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12539, Process 5, Store: Variable 1, Value: 5
+Clock: 12539, Process 5, Store: Variable 2, Value: 3
+Clock: 12541, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12541, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12541, Process 5, Store: Variable 3, Value: 7
+Clock: 12543, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12543, Process 5, Store: Variable 4, Value: 6
+Clock: 12544, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12544, Process 5, Store: Variable 5, Value: 2
+Clock: 12546, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12547, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12547, Process 5, Store: Variable 6, Value: 8
+Clock: 12549, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12549, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12549, Process 5, Store: Variable 1, Value: 10
+Clock: 12550, Process 2, Release: Variable 2
+Clock: 12550, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12550, Process 5, Store: Variable 1, Value: 5
+Clock: 12550, Process 5, Store: Variable 2, Value: 3
+Clock: 12550, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12550, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12550, Process 5, Store: Variable 3, Value: 7
+Clock: 12550, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12550, Process 5, Store: Variable 4, Value: 6
+Clock: 12550, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12550, Process 5, Store: Variable 5, Value: 2
+Clock: 12552, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12552, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12552, Process 5, Store: Variable 6, Value: 8
+Clock: 12553, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12553, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12553, Process 5, Store: Variable 1, Value: 10
+Clock: 12554, Process 2, Release: Variable 2
+Clock: 12554, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12554, Process 5, Store: Variable 1, Value: 5
+Clock: 12554, Process 5, Store: Variable 2, Value: 3
+Clock: 12554, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12554, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12554, Process 5, Store: Variable 3, Value: 7
+Clock: 12555, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12555, Process 5, Store: Variable 4, Value: 6
+Clock: 12555, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12555, Process 5, Store: Variable 5, Value: 2
+Clock: 12555, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12556, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12556, Process 5, Store: Variable 6, Value: 8
+Clock: 12556, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12556, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12556, Process 5, Store: Variable 1, Value: 10
+Clock: 12557, Process 2, Release: Variable 2
+Clock: 12557, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12557, Process 5, Store: Variable 1, Value: 5
+Clock: 12558, Process 5, Store: Variable 2, Value: 3
+Clock: 12558, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12558, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12558, Process 5, Store: Variable 3, Value: 7
+Clock: 12558, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12558, Process 5, Store: Variable 4, Value: 6
+Clock: 12559, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12559, Process 5, Store: Variable 5, Value: 2
+Clock: 12561, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12562, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12562, Process 5, Store: Variable 6, Value: 8
+Clock: 12562, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12562, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12562, Process 5, Store: Variable 1, Value: 10
+Clock: 12564, Process 2, Release: Variable 2
+Clock: 12566, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12566, Process 5, Store: Variable 1, Value: 5
+Clock: 12566, Process 5, Store: Variable 2, Value: 3
+Clock: 12567, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12567, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12567, Process 5, Store: Variable 3, Value: 7
+Clock: 12568, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12568, Process 5, Store: Variable 4, Value: 6
+Clock: 12568, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12568, Process 5, Store: Variable 5, Value: 2
+Clock: 12568, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12569, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12569, Process 5, Store: Variable 6, Value: 8
+Clock: 12569, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12569, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12569, Process 5, Store: Variable 1, Value: 10
+Clock: 12569, Process 2, Release: Variable 2
+Clock: 12569, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12569, Process 5, Store: Variable 1, Value: 5
+Clock: 12571, Process 5, Store: Variable 2, Value: 3
+Clock: 12573, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12573, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12573, Process 5, Store: Variable 3, Value: 7
+Clock: 12574, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12574, Process 5, Store: Variable 4, Value: 6
+Clock: 12574, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12574, Process 5, Store: Variable 5, Value: 2
+Clock: 12575, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12575, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12575, Process 5, Store: Variable 6, Value: 8
+Clock: 12575, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12575, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12575, Process 5, Store: Variable 1, Value: 10
+Clock: 12575, Process 2, Release: Variable 2
+Clock: 12575, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12575, Process 5, Store: Variable 1, Value: 5
+Clock: 12576, Process 5, Store: Variable 2, Value: 3
+Clock: 12576, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12576, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12576, Process 5, Store: Variable 3, Value: 7
+Clock: 12576, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12576, Process 5, Store: Variable 4, Value: 6
+Clock: 12577, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12577, Process 5, Store: Variable 5, Value: 2
+Clock: 12577, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12578, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12578, Process 5, Store: Variable 6, Value: 8
+Clock: 12580, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12580, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12580, Process 5, Store: Variable 1, Value: 10
+Clock: 12580, Process 2, Release: Variable 2
+Clock: 12580, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12580, Process 5, Store: Variable 1, Value: 5
+Clock: 12581, Process 5, Store: Variable 2, Value: 3
+Clock: 12581, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12581, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12581, Process 5, Store: Variable 3, Value: 7
+Clock: 12581, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12581, Process 5, Store: Variable 4, Value: 6
+Clock: 12581, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12581, Process 5, Store: Variable 5, Value: 2
+Clock: 12582, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12583, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12583, Process 5, Store: Variable 6, Value: 8
+Clock: 12585, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12585, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12585, Process 5, Store: Variable 1, Value: 10
+Clock: 12586, Process 2, Release: Variable 2
+Clock: 12587, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12587, Process 5, Store: Variable 1, Value: 5
+Clock: 12588, Process 5, Store: Variable 2, Value: 3
+Clock: 12588, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12588, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12588, Process 5, Store: Variable 3, Value: 7
+Clock: 12589, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12589, Process 5, Store: Variable 4, Value: 6
+Clock: 12589, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12589, Process 5, Store: Variable 5, Value: 2
+Clock: 12589, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12589, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12589, Process 5, Store: Variable 6, Value: 8
+Clock: 12589, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12589, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12589, Process 5, Store: Variable 1, Value: 10
+Clock: 12589, Process 2, Release: Variable 2
+Clock: 12589, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12589, Process 5, Store: Variable 1, Value: 5
+Clock: 12589, Process 5, Store: Variable 2, Value: 3
+Clock: 12589, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12589, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12589, Process 5, Store: Variable 3, Value: 7
+Clock: 12590, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12590, Process 5, Store: Variable 4, Value: 6
+Clock: 12590, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12590, Process 5, Store: Variable 5, Value: 2
+Clock: 12591, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12591, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12591, Process 5, Store: Variable 6, Value: 8
+Clock: 12592, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12592, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12592, Process 5, Store: Variable 1, Value: 10
+Clock: 12592, Process 2, Release: Variable 2
+Clock: 12592, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12592, Process 5, Store: Variable 1, Value: 5
+Clock: 12592, Process 5, Store: Variable 2, Value: 3
+Clock: 12593, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12593, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12593, Process 5, Store: Variable 3, Value: 7
+Clock: 12593, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12593, Process 5, Store: Variable 4, Value: 6
+Clock: 12593, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12593, Process 5, Store: Variable 5, Value: 2
+Clock: 12593, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12593, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12593, Process 5, Store: Variable 6, Value: 8
+Clock: 12593, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12593, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12593, Process 5, Store: Variable 1, Value: 10
+Clock: 12593, Process 2, Release: Variable 2
+Clock: 12593, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12593, Process 5, Store: Variable 1, Value: 5
+Clock: 12593, Process 5, Store: Variable 2, Value: 3
+Clock: 12593, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12593, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12593, Process 5, Store: Variable 3, Value: 7
+Clock: 12595, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12595, Process 5, Store: Variable 4, Value: 6
+Clock: 12595, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12595, Process 5, Store: Variable 5, Value: 2
+Clock: 12597, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12597, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12597, Process 5, Store: Variable 6, Value: 8
+Clock: 12600, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12600, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12600, Process 5, Store: Variable 1, Value: 10
+Clock: 12601, Process 2, Release: Variable 2
+Clock: 12602, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12602, Process 5, Store: Variable 1, Value: 5
+Clock: 12602, Process 5, Store: Variable 2, Value: 3
+Clock: 12602, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12602, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12602, Process 5, Store: Variable 3, Value: 7
+Clock: 12602, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12602, Process 5, Store: Variable 4, Value: 6
+Clock: 12604, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12604, Process 5, Store: Variable 5, Value: 2
+Clock: 12606, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12607, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12607, Process 5, Store: Variable 6, Value: 8
+Clock: 12609, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12609, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12609, Process 5, Store: Variable 1, Value: 10
+Clock: 12610, Process 2, Release: Variable 2
+Clock: 12612, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12612, Process 5, Store: Variable 1, Value: 5
+Clock: 12614, Process 5, Store: Variable 2, Value: 3
+Clock: 12614, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12614, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12614, Process 5, Store: Variable 3, Value: 7
+Clock: 12615, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12615, Process 5, Store: Variable 4, Value: 6
+Clock: 12615, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12615, Process 5, Store: Variable 5, Value: 2
+Clock: 12615, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12615, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12615, Process 5, Store: Variable 6, Value: 8
+Clock: 12615, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12615, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12615, Process 5, Store: Variable 1, Value: 10
+Clock: 12615, Process 2, Release: Variable 2
+Clock: 12615, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12615, Process 5, Store: Variable 1, Value: 5
+Clock: 12616, Process 5, Store: Variable 2, Value: 3
+Clock: 12617, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12617, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12617, Process 5, Store: Variable 3, Value: 7
+Clock: 12617, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12617, Process 5, Store: Variable 4, Value: 6
+Clock: 12618, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12618, Process 5, Store: Variable 5, Value: 2
+Clock: 12619, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12620, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12620, Process 5, Store: Variable 6, Value: 8
+Clock: 12620, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12620, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12620, Process 5, Store: Variable 1, Value: 10
+Clock: 12620, Process 2, Release: Variable 2
+Clock: 12621, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12621, Process 5, Store: Variable 1, Value: 5
+Clock: 12622, Process 5, Store: Variable 2, Value: 3
+Clock: 12623, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12623, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12623, Process 5, Store: Variable 3, Value: 7
+Clock: 12623, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12623, Process 5, Store: Variable 4, Value: 6
+Clock: 12623, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12623, Process 5, Store: Variable 5, Value: 2
+Clock: 12623, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12623, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12623, Process 5, Store: Variable 6, Value: 8
+Clock: 12623, Process 5, Memory Manager, Swap: Variable 1 with Variable 3
+Clock: 12623, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12623, Process 5, Store: Variable 1, Value: 10
+Clock: 12623, Process 2, Release: Variable 2
+Clock: 12624, Process 5, Lookup: Variable 1, Value: 5
+Clock: 12624, Process 5, Store: Variable 1, Value: 5
+Clock: 12624, Process 5, Store: Variable 2, Value: 3
+Clock: 12625, Process 5, Memory Manager, Swap: Variable 3 with Variable 1
+Clock: 12625, Process 5, Lookup: Variable 3, Value: 7
+Clock: 12625, Process 5, Store: Variable 3, Value: 7
+Clock: 12627, Process 5, Lookup: Variable 4, Value: 6
+Clock: 12627, Process 5, Store: Variable 4, Value: 6
+Clock: 12627, Process 5, Lookup: Variable 5, Value: 2
+Clock: 12627, Process 5, Store: Variable 5, Value: 2
+Clock: 12627, Process 3, Lookup: Variable 3, Value: 7
+Clock: 12627, Process 5, Lookup: Variable 6, Value: 8
+Clock: 12627, Process 5, Store: Variable 6, Value: 8
+Clock: 12631, Process 5: Finished.

@@ -20,40 +20,50 @@ public class MemoryManager implements Runnable {
         thread = new Thread(this);
     }
 
-    public void store(String id, String value, int time, String processId) {
-        if(pages.size() < config.pages)
-            pages.put(id, new Page(id, value, time));
-        else {
-            Map<String, String> vm = readFromVm();
+    public void store(String id, String value, int time, String processId, boolean write) {
+        
 
-            vm.put(id, value);
+        String result = lookup(id, time, processId);
 
-            writeToVm(vm);
+        if(result.equals("-1")) {
+            if(pages.size() < config.pages)
+                pages.put(id.trim(), new Page(id.trim(), value.trim(), time));
+            else {
+                Map<String, String> vm = readFromVm();
+
+                vm.put(id.trim(), value.trim());
+
+                writeToVm(vm);
+            }
         }
-        writeToFile(getOutPut("Store", new String[] {id, value}, processId, time));    
+
+        if(write)
+            writeToFile(getOutPut("Store", new String[] {id, value}, processId, time));    
     }
 
     public void release(String id, int time, String processId) {
-        if(pages.containsKey(id))
-            pages.remove(id);
+        if(pages.containsKey(id.trim()))
+            pages.remove(id.trim());
         else {
             Map<String, String> vm = readFromVm();
 
-            vm.remove(id);
+            vm.remove(id.trim());
 
             writeToVm(vm);
         }
         writeToFile(getOutPut("Release", new String[] {id},  processId, time));    
     }
 
-    public String lookup(String id, int time, String processId) {
+    public String lookup(String lookupId, int time, String processId) {
         // PAGE FAULT HAS OCCURRED
         // vairbale is in disk memory
-        if(!pages.containsKey(id)) { 
+        if(!pages.containsKey(lookupId)) { 
             Map<String, String> vm = readFromVm();
 
-            
-            if(vm.containsKey(id)) {
+            if(vm.containsKey(lookupId)) {
+                String returnValue = "";
+                //System.out.println("Found in vm: " + lookupId + " value " + vm.get(lookupId));
+
                 // if pages size == confuig pages we got no more space in main memory
                 // and must use the lru-k algo step 2
                 if(pages.size() == config.pages) {
@@ -95,21 +105,27 @@ public class MemoryManager implements Runnable {
 
                     pages.remove(chosen.id);
 
-                    pages.put(id, new Page(id, vm.get(id), time));
+                    pages.put(lookupId, new Page(lookupId, vm.get(lookupId), time));
                     
-                    store(id, vm.get(id), time, processId);
-                    replaceVMVariable(vm, id, chosen.id, chosen.content.value, processId, time);
-                } else
-                    pages.put(id, new Page(id, vm.get(id), time));
+                    returnValue = vm.get(lookupId);
+                    //store(lookupId, vm.get(lookupId), time, processId, false);
+                    replaceVMVariable(vm, lookupId, chosen.id, chosen.content.value, processId, time);
+                } else {
+                    pages.put(lookupId, new Page(lookupId, vm.get(lookupId), time));
+                    returnValue = vm.get(lookupId);
+                    //store(lookupId, vm.get(lookupId), time, processId, false);
+                }
 
-                writeToFile(getOutPut("Lookup", new String[] {id, vm.get(id)}, processId, time));    
+                writeToFile(getOutPut("Lookup", new String[] {lookupId, returnValue}, processId, time));    
 
-                return vm.get(id);
+                return returnValue;
             }
             else   
                 return "-1";
         } else {
-            Page p = pages.get(id);
+            Page p = pages.get(lookupId);
+            //System.out.println("Found in page: " + p.id + " value " + p.content.value);
+            
             int lastAccessTime = p.lastAccessTime;
 
             int difference = time - lastAccessTime;
@@ -129,18 +145,18 @@ public class MemoryManager implements Runnable {
                 p.setAcccessTime(history.get(0));
             }
 
-            writeToFile(getOutPut("Lookup", new String[] {id, p.content.value}, processId, time));    
+            writeToFile(getOutPut("Lookup", new String[] {lookupId, p.content.value}, processId, time));    
             return p.content.value;
         }
     }
 
-    public void replaceVMVariable(Map<String, String> vm, String oldId, String newId, String value, String processId, int time) {
-        vm.remove(oldId);
-        vm.put(newId, value);
+    public void replaceVMVariable(Map<String, String> vm, String removeId, String putId, String putValue, String processId, int time) {
+        vm.remove(removeId);
+        vm.put(putId, putValue);
 
         writeToVm(vm);  
 
-        writeToFile(getOutPut("Swap", new String[] {oldId, newId}, processId, time)); 
+        writeToFile(getOutPut("Swap", new String[] {removeId, putId}, processId, time)); 
     }
 
     public void writeToVm(Map<String, String> vm) {
@@ -150,7 +166,10 @@ public class MemoryManager implements Runnable {
             output += "(" + set.getKey() + ", " + set.getValue() + "),";
         }
 
+        output = output.substring(0, output.length() - 1);
+
         output += "]";
+
         try {
             FileWriter w = new FileWriter("vm.txt", false);
             w.write(output);
@@ -173,18 +192,18 @@ public class MemoryManager implements Runnable {
             if(line != null) {
                 String[] content = line.split(":");
 
-                if(content.length == 0) {
+                if(content.length != 0) {
                     String arrString = content[1]; // contains [(?,?),(?,?), etc]
                     
                     java.util.regex.Matcher m = Pattern.compile("\\((.*?)\\)").matcher(arrString);
                     
                     while (m.find()) {
                         String dict = m.group(1);
-                        System.out.println(dict);
+                        //System.out.println(dict);
             
                         String[] keyAndValue = dict.split(",");
             
-                        vm.put(keyAndValue[0], keyAndValue[1]);
+                        vm.put(keyAndValue[0].trim(), keyAndValue[1].trim());
                     }
                 }
             }
@@ -222,7 +241,7 @@ public class MemoryManager implements Runnable {
                 output = "Clock: " + time + ", Process " + processId + ", "+commandType + ": Variable " + data[0];
             break;
             case "Swap":
-                output = "Clock: " + time + ", Process " + processId + ", "+commandType + ": Variable " + data[0] + ", Value: " + data[1]; 
+                output = "Clock: " + time + ", Process " + processId + ", Memory Manager, "+commandType + ": Variable " + data[0] + " with Variable " + data[1]; 
             break;
         }
         

@@ -83,7 +83,7 @@ public class Process implements Runnable {
     }
 
     public void store(String var, String val) {
-        memoryManager.store(var, val, timer.getTime(), id);
+        memoryManager.store(var, val, timer.getTime(), id, true);
     }
 
     public void release(String id) {

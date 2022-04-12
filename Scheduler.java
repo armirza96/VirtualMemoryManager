@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Random;
@@ -21,6 +22,7 @@ public class Scheduler {
 
     Queue<Process> mainQueue;
     Queue<Process> waitingQueue;
+    Queue<Process> allProcesses;
 
     int totalCores = 0;
 
@@ -34,20 +36,22 @@ public class Scheduler {
         mainQueue = new LinkedList<Process>();
         waitingQueue = new LinkedList<Process>();
 
-        
-        // start timer
-        // executes on another thread
-        timer = new Timer();
+        allProcesses = new LinkedList<Process>();
+
     }
 
     public void start() {
+        // start timer
+        // executes on another thread
+        timer = new Timer();
+
         try {
             readProcessesFile();
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        
+
         Runnable process = () -> {
             scheduleProcesses();
         };
@@ -103,7 +107,7 @@ public class Scheduler {
     
                     while(currentTime < stopTime) {
                         currentTime = getTime();
-                        //System.out.print(" " + currentTime);
+
                         if(nextProcess != null && currentTime == nextProcess.startTime) {
                             writeToFile("Clock: " + currentTime + ", Process " + nextProcess.id + ": Started.");
                             nextProcess.startProcess();
@@ -127,7 +131,7 @@ public class Scheduler {
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-                        //System.out.println("Clock: " + getTime() + ", Process " + p.id + ": Finished.");
+                        
                         writeToFile("Clock: " + getTime() + ", Process " + p.id + ": Finished.");
                         mainQueue.add(waitingQueue.poll());
                     }
@@ -181,7 +185,8 @@ public class Scheduler {
             } else {
                 waitingQueue.add(p);
             }
-            
+            allProcesses.add(p);
+
             processCount++;
         }
         
@@ -205,18 +210,6 @@ public class Scheduler {
     }
 
     public void writeToFile(String output) {
-        // try {
-        //     semaphore.acquire();
-
-        //     //System.out.println("Current Thread ID- " + Thread.currentThread().getId() + " For Thread- " + Thread.currentThread().getName());   
-
-
-        //     semaphore.release();
-        // } catch (InterruptedException e1) {
-        //     // TODO Auto-generated catch block
-        //     e1.printStackTrace();
-        // }
-
         try {
             FileWriter w = new FileWriter("output.txt", true);
             w.write("\n"+output);
@@ -240,12 +233,16 @@ public class Scheduler {
     }
 
     public Process getNextProcessToStart() {
-        if(mainQueue.size() == totalCores) {
-            return waitingQueue.peek();
-        } else {
-            return mainQueue.peek();
+        Iterator<Process> it = allProcesses.iterator();
+        
+        while(it.hasNext()) {
+            Process p = it.next();
+            if(p.state != STATE.STARTED) {
+                return p;
+            }
+
         }
-           
+        return null;
     }
 
     // just for debugging purposes

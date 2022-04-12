@@ -2,7 +2,7 @@
 public class Timer implements Runnable {
     Thread thread;
     boolean on;
-    int time = 1000;
+    int time = 0;
     
     public Timer() {
         thread = new Thread(this);

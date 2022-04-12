@@ -67,20 +67,21 @@ public class Scheduler {
     private void scheduleProcesses() {
 
             int currentTime = timer.getTime();
-
+            System.out.println("Scheduler started.");
             while(!mainQueue.isEmpty()) {
+                currentTime = timer.getTime();
                 // gets the current head of the queue and returns it
                 // removes it as well
                 Process p = mainQueue.poll();
                 
                 // not neccessarily needed but its a good check just in case
                 if(p != null) {
-                    System.out.println("Process:" + p.id +", Starting Time: " + p.startTime + ", curret time " + getTime());
+                    //System.out.println("Process:" + p.id +", Starting Time: " + p.startTime + ", curret time " + getTime());
                     
                     // skip to next process if arrival time of the next 
                     // process is more than the current time
                     if(p.startTime > currentTime) {
-                        System.out.println("Skip over Process:" + p.id +", Time: " + getTime());
+                        //System.out.println("Skip over Process:" + p.id +", Time: " + getTime());
                         mainQueue.add(p);
                         continue;
                     }
@@ -100,7 +101,7 @@ public class Scheduler {
                     
                     
                     int stopTime = currentTime + timeSlotGranted;
-                    System.out.println("Process:" + p.id +", Current time: " + currentTime + ", Stoptime: " + stopTime);
+                   // System.out.println("Process:" + p.id +", Current time: " + currentTime + ", Stoptime: " + stopTime);
                     Process nextProcess = getNextProcessToStart();
                     // run current process p for the requested duration
                     p.startReadingFile();
@@ -238,6 +239,7 @@ public class Scheduler {
         while(it.hasNext()) {
             Process p = it.next();
             if(p.state != STATE.STARTED) {
+                System.out.println("Next Process: " + p.id);
                 return p;
             }
 

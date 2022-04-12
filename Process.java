@@ -55,8 +55,6 @@ public class Process implements Runnable {
                 commandReader.readNextCommand();
                 
                 int sleep = calculateAPICallTime();
-                int currentTime = timer.getTime();
-                //System.out.println("Sleeping for: " + sleep + " Time: " + currentTime + " id" + id);
 
                 try {
                     Thread.sleep(sleep);
